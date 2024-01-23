@@ -336,7 +336,7 @@ const Factory = function () {
         const content = d3.select('body').append('div').attr('class', 'input-sheet')
         plotLogo(content)
         const bannerText =
-          '<div><h1>Build your own radar</h1><p>Once you\'ve <a href ="https://www.thoughtworks.com/radar/byor">created your Radar</a>, you can use this service' +
+          '<div><h1>Tech Radar</h1><p>Once you\'ve <a href ="https://www.thoughtworks.com/radar/byor">created your Radar</a>, you can use this service' +
           ' to generate an <br />interactive version of your Technology Radar. Not sure how? <a href ="https://www.thoughtworks.com/radar/byor">Read this first.</a></p></div>'
 
         plotBanner(content, bannerText)
@@ -354,7 +354,7 @@ const Factory = function () {
 }
 
 function setDocumentTitle() {
-  document.title = 'Build your own Radar'
+  document.title = 'Tech Radar'
 }
 
 function plotLoading(content) {
@@ -437,7 +437,7 @@ function plotErrorMessage(exception, fileType) {
     plotLogo(content)
 
     const bannerText =
-      '<div><h1>Build your own radar</h1><p>Once you\'ve <a href ="https://www.thoughtworks.com/radar/byor">created your Radar</a>, you can use this service' +
+      '<div><h1>Tech Radar</h1><p>Once you\'ve <a href ="https://www.thoughtworks.com/radar/byor">created your Radar</a>, you can use this service' +
       ' to generate an <br />interactive version of your Technology Radar. Not sure how? <a href ="https://www.thoughtworks.com/radar/byor">Read this first.</a></p></div>'
 
     plotBanner(content, bannerText)
@@ -504,7 +504,7 @@ function plotUnauthorizedErrorMessage() {
 
     plotLogo(content)
 
-    const bannerText = '<div><h1>Build your own radar</h1></div>'
+    const bannerText = '<div><h1>Tech Radar</h1></div>'
 
     plotBanner(content, bannerText)
 

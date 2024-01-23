@@ -4,8 +4,7 @@
 @if $UIRefresh2022 {
   .hero-banner {
     height: $tabletBannerHeight;
-    background-color: $amethyst;
-    background-image: url('/images/banner-image-mobile.jpg');
+    background-color: $kadaster;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
@@ -14,12 +13,7 @@
     align-items: center;
     margin: 0 !important;
 
-    @include media-query-large {
-      background-image: url('/images/banner-image-mobile.jpg');
-    }
-
     @include media-query-xlarge {
-      background-image: url('/images/banner-image-desktop.jpg');
       height: $bannerHeight;
       background-size: cover;
     }
@@ -46,7 +40,6 @@
 
     &__subtitle-text {
       font-weight: 630;
-      width: 50%;
       text-align: left;
       text-transform: none;
       letter-spacing: 0;
@@ -54,20 +47,10 @@
       text-overflow: ellipsis;
       display: -webkit-box;
       line-height: 1.75rem;
-      -webkit-line-clamp: 4;
       -webkit-box-orient: vertical;
 
       @include media-query-medium {
-        width: 37.5%;
-        -webkit-line-clamp: 2;
-      }
-
-      @include media-query-large {
-        width: 25%;
-      }
-
-      @include media-query-xlarge {
-        width: 33%;
+        width: 75%;
       }
     }
   }

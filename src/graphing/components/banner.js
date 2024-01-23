@@ -9,7 +9,13 @@ function renderBanner(renderFullRadar) {
     const documentTitle = document.title[0].toUpperCase() + document.title.slice(1)
 
     document.title = documentTitle
-    d3.select('.hero-banner__wrapper').append('p').classed('hero-banner__subtitle-text', true).text(document.title)
+    d3.select('.hero-banner__wrapper')
+      .append('p')
+      .classed('hero-banner__subtitle-text', true)
+      .text("Dit is de Tech Radar van het Kadaster Emerging Technology Center. Hierin zijn nieuwe technologieën, ontwikkelingen en innovaties ingedeeld in hoe het ETC verwacht dat deze het Kadaster raken en/of relevant zijn. Heb je vragen, opmerkingen of suggesties? Stuur ons dan een mail naar etc@kadaster.nl")
+      .append('p')
+      .classed('hero-banner__subtitle-text', true)
+      .text("Laatst bijgewerkt op 30 maart 2023")
     d3.select('.hero-banner__title-text').on('click', renderFullRadar)
 
     addPdfCoverTitle(documentTitle)

@@ -780,7 +780,7 @@ const Radar = function (size, radar) {
       renderSearch(radarHeader, quadrants)
       renderAlternativeRadars(radarFooter, alternatives, currentSheet)
       renderQuadrantTables(quadrants, rings)
-      renderButtons(radarFooter)
+      // renderButtons(radarFooter)
 
       const landingPageElements = document.querySelectorAll('main .home-page')
       landingPageElements.forEach((elem) => {

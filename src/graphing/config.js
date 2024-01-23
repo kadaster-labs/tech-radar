@@ -35,7 +35,7 @@ const graphConfig = {
 
 const uiConfig = {
   subnavHeight: 60,
-  bannerHeight: 200,
+  bannerHeight: 300,
   tabletBannerHeight: 300,
   headerHeight: 80,
   legendsHeight: 42,
