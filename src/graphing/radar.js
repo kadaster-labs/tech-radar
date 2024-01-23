@@ -773,7 +773,7 @@ const Radar = function (size, radar) {
     const radarHeader = d3.select('main .graph-header')
     const radarFooter = d3.select('main .graph-footer')
 
-    renderBanner(renderFullRadar)
+    // renderBanner(renderFullRadar)
 
     if (featureToggles.UIRefresh2022) {
       renderQuadrantSubnav(radarHeader, quadrants, renderFullRadar)
