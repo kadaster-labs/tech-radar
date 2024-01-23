@@ -36,6 +36,7 @@ jobs:
         env:
           RINGS: '["Adopt", "Explore", "Assess", "Monitor"]'
           QUADRANTS: '["Techniques", "Data management & Infrastructure", "Tools", "Languages & Frameworks"]'
+          ASSET_PATH: '/build-your-own-radar/'
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
