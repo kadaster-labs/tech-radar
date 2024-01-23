@@ -20,12 +20,12 @@
 @import 'pdfPage';
 
 :root {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 @supports (font-variation-settings: normal) {
   :root {
-    font-family: 'Inter var', sans-serif;
+    font-family: 'Open Sans var', sans-serif;
   }
 }
 
@@ -63,7 +63,7 @@
       h2 {
         font-size: 1.25rem;
         font-weight: 630;
-        font-family: 'Inter', serif;
+        font-family: 'Open Sans', serif;
         text-transform: none;
         letter-spacing: normal;
 
