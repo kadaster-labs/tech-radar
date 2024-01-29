@@ -35,7 +35,7 @@ jobs:
         run: npm run build:prod
         env:
           RINGS: '["Adopt", "Explore", "Assess", "Monitor"]'
-          QUADRANTS: '["Techniques", "Data management & Infrastructure", "Tools", "Languages & Frameworks"]'
+          QUADRANTS: '["Moderne IT", "Federatieve Datadeling", "AI en Datascience", "Privacy- bescherming"]'
           ASSET_PATH: '/build-your-own-radar/'
 
       - name: Upload artifact
