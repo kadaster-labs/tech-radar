@@ -36,7 +36,7 @@ jobs:
         env:
           RINGS: '["Adopt", "Explore", "Assess", "Monitor"]'
           QUADRANTS: '["Moderne IT", "Federatieve Datadeling", "AI en Datascience", "Privacy- bescherming"]'
-          ASSET_PATH: '/build-your-own-radar/'
+          ASSET_PATH: '/tech-radar/'
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
