@@ -68,7 +68,13 @@ npm ci
 In order to view the project in action, it needs to be built and served as web assets.
 
 ```console
+# Build project
 npm run build:prod
+
+# Place data file in web server folder, only needed once
+mkdir -p dist/files && cp content/data.json "$_"
+
+# Serve assets
 npx serve dist/
 ```
 
