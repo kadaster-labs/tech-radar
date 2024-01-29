@@ -12,7 +12,7 @@ This radar is compiled and hosted on GitHub Pages. The `content/data.json` is pl
 
 We compile the list of technologies in a separate [Excel document](https://hetkadaster.sharepoint.com/sites/gd-boi/b08af/Content/2020-013-TechRadar/2024Q1-TechRadar.xlsx?d=w3a5cd46c7220490daa04478e7911d357&csf=1&web=1&e=VVexwD). This allows for easy collaboration between team members. Previously, we made CSV export from this document, but it has some complications with newlines and delimiters as the company uses the Dutch language pack.
 
-Another, more convenient, way to provide the data is using a JSON array.
+Another, more convenient, way to provide the data is using a JSON array. The linked Excel document contains a "Office Scripts" script which outputs the Content table as JSON and prints it to console.log. This script can be used to easily export the data from Excel to this repo.
 We can enter a publicly accessible URL (not behind any authentication) of this JSON file which will then be rendered. This file is hosted on GitHub, within this repo.
 
 An example:
