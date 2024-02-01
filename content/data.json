@@ -4,7 +4,7 @@
         "ring": "Explore",
         "quadrant": "AI en Datascience",
         "isNew": "FALSE",
-        "description": "Advanced Analytics is een verzamelterm voor diverse data analyse technologieën en toepassingen. Deze gaan verder dan basale statistische analyses en traditionele business intelligence om diepere inzichten, voorspellingen of aanbevelingen te kunnen bieden. Voorbeelden van Advanced Analytics technieken zijn data/text mining, time series analyse, forecasting en pattern matching.\n\nBinnen het Kadaster zijn we o.a. aan het onderzoeken of we deze technieken kunnen gebruiken om het werkaanbod van aktes beter te kunnen voorspellen. "
+        "description": "Advanced Analytics is een verzamelterm voor diverse data analyse technologieën en toepassingen. Deze gaan verder dan basale statistische analyses en traditionele business intelligence om diepere inzichten, voorspellingen of aanbevelingen te kunnen bieden. Voorbeelden van Advanced Analytics technieken zijn data/text mining, time series analyse, forecasting en pattern matching.\n<br/><br/>\nBinnen het Kadaster zijn we o.a. aan het onderzoeken of we deze technieken kunnen gebruiken om het werkaanbod van aktes beter te kunnen voorspellen. "
     },
     {
         "name": "Artificial Intelligence",
@@ -18,7 +18,7 @@
         "ring": "Explore",
         "quadrant": "AI en Datascience",
         "isNew": "FALSE",
-        "description": "Computer vision is een veld binnen AI waarbij systemen zelf beeldmateriaal kunnen begrijpen en interpreteren. Computer vision wordt binnen het Kadaster met name toegepast door het Geo Expertise Centre, waarbij zij beeldherkenning gebruiken om op basis van luchtfoto’s onder andere de zonnepotentie te berekenen. Ook wordt computer vision toegepast bij Kadastrale Kaart Next. Hierbij interpreteert het algoritme de meetschets van de landmeter en haalt daar de meetgegevens uit.<br/><br/>Optical character recoginition (OCR) valt ook onder computer vision en betreft specifiek het interpreteren van tekst in afbeeldingen. Dit is zeer relevant voor het Kadaster, omdat oude aktes alleen beschikbaar zijn als afbeelding en niet als machine-leesbare tekst. Momenteel kijken we of we de ruilverkavelingsaktes machine-leesbaar kunnen maken en worden er plannen gemaakt om dit toe te passen op het akte-archief, wat het mogelijk zal maken om alle aktes vanaf 1950 te doorzoeken."
+        "description": "Computer vision is een veld binnen AI waarbij systemen zelf beeldmateriaal kunnen begrijpen. Computer vision wordt binnen het Kadaster met name toegepast door het Geo Expertise Center, waarbij zij beeldherkenning gebruiken om op basis van luchtfoto’s onder andere <a href=\"https://www.kadaster.nl/zakelijk/energietransitie/inzicht-in-zonpotentie-daken\" target=\"_blank\">inzicht in de zonnepotentie op daken</a> te verkrijgen. Een andere toepassing van beeldherkenning is het krijgen van meer inzicht in vakantieparken, door het detecteren van vakantiehuisjes. Ook wordt computer vision toegepast bij <a href=\"https://www.kadaster.nl/over-ons/beleid/algoritmeregister/kadastrale-kaart-next\" target=\"_blank\">Kadastrale Kaart Next</a>. Hierbij interpreteert het algoritme de meetschets van de landmeter en haalt daar de meetgegevens uit.\n<br/><br/>\nOptical character recoginition (OCR) valt ook onder computer vision en betreft specifiek het interpreteren van tekst in afbeeldingen. Dit is zeer relevant voor het Kadaster, omdat oude aktes alleen beschikbaar zijn als afbeelding en niet als machine-leesbare tekst. Momenteel kijken we binnen <a href=\"https://labs.kadaster.nl/cases/akte-ocr\" target=\"_blank\">Akte-OCR</a> of we de ruilverkavelingsaktes machine-leesbaar kunnen maken en worden er plannen gemaakt om dit toe te passen op het akte-archief, wat het mogelijk zal maken om alle aktes vanaf 1950 te doorzoeken.\n<br/><br/>\nDaarnaast gebruiken we computer vision voor het detecteren van legitimatiebewijzen in geuploade bestanden. Deze documenten mogen we niet opslaan vanwege de AVG privacy-wetgeving. Gezien we een grote hoeveel PDFs aangeleverd krijgen is het onmogelijk al deze documenten handmatig te controleren op ingescande legitimatiebewijzen. Hiertoe hebben we een eigen AI-model ontwikkeld."
     },
     {
         "name": "Data Science",
@@ -32,7 +32,7 @@
         "ring": "Assess",
         "quadrant": "AI en Datascience",
         "isNew": "FALSE",
-        "description": "De laatste jaren is er niet alleen aandacht voor waar en hoe AI ingezet kan worden maar ook hoe dit op een verantwoorde manier gedaan kan worden. Dit is Responsible AI, ook wel Ethical AI genoemd. Er zijn verschillende facetten waarop gelet moet worden om AI verantwoord in te zetten. <br/><br/>Binnen het Kadaster willen we op een betrouwbare, transparante en ethische manier omgaan met AI. Een algoritmeregister kan helpen bij het uitlegbaar en transparant maken van de algoritmische toepassingen die we gebruiken. Hiervoor hebben we een AI Governance team en een Ethische Data Commissie in het leven geroepen en publiceren we verscheidende algoritmes in <a href=\"https://algoritme.overheid.nl/algoritme?search=kadaster\" target=\"_blank\">Het Algoritmeregister</a>. Daarnaast volgen we de ontwikkelingen rondom de AI Act, de aankomende Europese regelgeving rondom het gebruik van AI systemen.<br/><br/>Voor het ethisch omgaan met AI doen we onder andere onderzoek naar Explainable AI. Dit is een set technieken die het mogelijk maakt om de uitkomsten van “black box” AI systemen op zo een manier uit te leggen dat ze voor mensen begrijpelijk zijn. Fairness en bias zijn ook belangrijk in om te monitoren in AI systemen, zodat er niet een groep mensen benadeeld worden door de algoritmes."
+        "description": "De laatste jaren is er niet alleen aandacht voor waar en hoe AI ingezet kan worden maar ook hoe dit op een verantwoorde manier gedaan kan worden. Taalmodellen zijn bijvoorbeeld erg krachting, maar ze zijn ook zeer rekenintensief en vereisen grote hoeveelheden data en rekenkracht. Daarnaast kunnen ze gevoelig zijn voor vooringenomenheid en fouten, vooral als de trainingsdata onvolledig of onjuist is. Het is daarom belangrijk om kritisch te blijven bij het gebruik van LLM's en de resultaten te verifiëren en valideren voordat ze worden gebruikt. Dit is Responsible AI, ook wel Ethical AI genoemd. Er zijn verschillende facetten waarop gelet moet worden om AI verantwoord in te zetten.\n<br/><br/>\nBinnen het Kadaster willen we op een betrouwbare, transparante en ethische manier omgaan met AI. Een algoritmeregister kan helpen bij het uitlegbaar en transparant maken van de algoritmische toepassingen die we gebruiken. Hiervoor hebben we een AI Governance team en een Ethische Data Commissie in het leven geroepen en publiceren we verscheidende algoritmes in <a href=\"https://algoritme.overheid.nl/algoritme?search=kadaster\" target=\"_blank\">Het Algoritmeregister</a>. Daarnaast volgen we de ontwikkelingen rondom de AI Act, de aankomende Europese regelgeving rondom het gebruik van AI systemen.\n<br/><br/>\nVoor het ethisch omgaan met AI doen we onder andere onderzoek naar Explainable AI. Dit is een set technieken die het mogelijk maakt om de uitkomsten van “black box” AI systemen op zo een manier uit te leggen dat ze voor mensen begrijpelijk zijn. Fairness en bias zijn ook belangrijk in om te monitoren in AI systemen, zodat er niet een groep mensen benadeeld worden door de algoritmes."
     },
     {
         "name": "Natural Language Processing",
@@ -53,7 +53,7 @@
         "ring": "Adopt",
         "quadrant": "AI en Datascience",
         "isNew": "FALSE",
-        "description": "Machine learning (ML) is een vorm van AI waarbij algoritmes worden getraind om voorspellingen of beslissingen te nemen op basis van data. Het verschilt van andere AI-technieken, zoals expertsystemen of regelgebaseerde systemen, doordat het statistische modellen gebruikt om data te analyseren en te leren, in plaats van te vertrouwen op expliciete programmering. Deep learning (DL) is een vorm van ML die gebruik maakt van kunstmatige neurale netwerken met veel lagen om complexe data te analyseren en te leren. Het is een subveld van ML en is geschikter voor taken zoals beeld- en spraakherkenning, natuurlijke taalverwerking en autonoom rijden. Waar uitlegbaarheid van een ML belangrijk is, is DL meestal af te raden gezien dit \"black box\" modellen zijn.<br/><br/>Over het algemeen zijn al deze AI-technieken verwant en kunnen ze in combinatie met elkaar worden gebruikt. Binnen het Kadaster gebruiken we ML onder andere voor locatiebepaling van appartementen [<a href=\"https://labs.kadaster.nl/cases/locatiebepaling_appartementsrecht\" target=\"_blank\">1</a>] en het voorspellen van BAG bouwjaren [<a href=\"https://labs.kadaster.nl/cases/bagbouwjaren\" target=\"_blank\">2</a>, <a href=\"https://labs.kadaster.nl/cases/bag-voorspellingen\" target=\"_blank\">3</a>]. Voor DL voorbeelden, zie Deep Learning."
+        "description": "Machine learning (ML) is een vorm van AI waarbij algoritmes worden getraind om voorspellingen of beslissingen te nemen op basis van data. Het verschilt van andere AI-technieken, zoals expertsystemen of regelgebaseerde systemen, doordat het statistische modellen gebruikt om data te analyseren en te leren, in plaats van te vertrouwen op expliciete programmering. Deep learning (DL) is een vorm van ML die gebruik maakt van kunstmatige neurale netwerken met veel lagen om complexe data te analyseren en te leren. Het is een subveld van ML en is geschikter voor taken zoals beeld- en spraakherkenning, natuurlijke taalverwerking en autonoom rijden. Waar uitlegbaarheid van een ML belangrijk is, is DL meestal af te raden gezien dit \"black box\" modellen zijn.\n<br/><br/>\nOver het algemeen zijn al deze AI-technieken verwant en kunnen ze in combinatie met elkaar worden gebruikt. Binnen het Kadaster gebruiken we ML onder andere voor <a href=\"https://labs.kadaster.nl/cases/locatiebepaling_appartementsrecht\" target=\"_blank\">locatiebepaling van appartementen</a> binnen het appartementencomplex. Daarnaast gebruiken we ML om de kwaliteit van de BAG te verbeteren, door het <a href=\"https://labs.kadaster.nl/cases/bagbouwjaren\" target=\"_blank\">opsporen van onjuiste jaartallen</a> en het <a href=\"https://labs.kadaster.nl/cases/bag-voorspellingen\" target=\"_blank\">voorspellen van ontbrekende jaartallen</a>. Voor DL voorbeelden, zie Deep Learning."
     },
     {
         "name": "Deep Learning",
@@ -67,21 +67,77 @@
         "ring": "Assess",
         "quadrant": "AI en Datascience",
         "isNew": "FALSE",
-        "description": "Generative AI is een deelgebied van kunstmatige intelligentie waarbij het doel is om nieuwe en unieke output te genereren aan de hand van een bepaald model. Dit model is getraind op een grote dataset en kan worden gebruikt om te voorspellen of te genereren van nieuwe, waarschijnlijke output. Een erg nuttige toepassing hiervan is code generation, waarmee programmeercode gegenereerd wordt. Steeds meer software ontwikkelaars binnen het Kadaster maken hier gebruik van, wat ze in staat stelt sneller en efficienter te werken.<br/><br/>Voor het Kadaster is generatieve AI daarnaast een interessante ontwikkeling voor het genereren van synthetische data. Bijvoorbeeld, een generatief model kon getraind worden op gegevens uit de database van het Kadaster en gebruikt worden om nieuwe, realistische gegevens te genereren voor testdoeleinden. Dit zou kunnen helpen bij het verbeteren van de kwaliteit van het systeem en de integriteit van de gegevens.<br/><br/>Generatieve AI nog steeds een nieuw en evoluerend veld is, en de toepassingsmogelijkheden ervan zijn nog steeds aan verdere verkenning toe."
+        "description": "Generative AI is een deelgebied van AI waarbij het doel is om nieuwe en unieke output te genereren aan de hand van een bepaald model. Dit model is getraind op een grote dataset en kan worden gebruikt om te voorspellen of het genereren van nieuwe, waarschijnlijke output. Een erg nuttige toepassing hiervan is code generation, waarmee programmeercode gegenereerd wordt. Steeds meer software ontwikkelaars binnen het Kadaster maken hier gebruik van, wat ze in staat stelt sneller en efficiënter te werken.\n<br/><br/>\nVoor het Kadaster is generatieve AI daarnaast een interessante ontwikkeling voor het genereren van synthetische data. Zo denken we na over hoe we een generatief model kunnen inzetten om nieuwe, realistische gegevens te genereren voor testdoeleinden. Dit zou kunnen helpen bij het verbeteren van de kwaliteit van het systeem en de integriteit van de gegevens. Dit doen we bijvoorbeeld binnen de akteverwerking.\n<br/><br/>\nOok onderzoeken we het inzetten van generatieve AI voor het genereren van afbeeldingen voor interne nieuwsartikelen. Generatieve AI nog steeds een snel evoluerend veld, en we blijven de toepasbaarheid ervan onderzoeken."
     },
     {
         "name": "Large Language Models",
         "ring": "Explore",
         "quadrant": "AI en Datascience",
         "isNew": "FALSE",
-        "description": "Large Language Models (LLM) zijn neurale netwerkmodellen die getraind worden op grote hoeveelheden tekstuele data om complexe taalkundige taken uit te voeren. LLM's gebruiken transformer-modellen om natuurlijke taal in een interne representatie te coderen, waardoor het model in staat is om verbanden te leggen tussen verschillende delen van de tekst. Hierdoor kan het model taken uitvoeren zoals vertalen, samenvatten, vragen beantwoorden en genereren van tekst.<br/><br/>LLM's onderscheiden zich van traditionele NLP-modellen doordat ze gebruik maken van deep learning-technieken, waardoor ze complexe taalkundige taken kunnen uitvoeren.<br/><br/>LLM's verschillen van andere generatieve AI-modellen doordat ze getraind zijn op natuurlijke taaltekst. Dit stelt ze in staat om de context van de tekst te begrijpen en daarop te reageren, in tegenstelling tot andere generatieve modellen die simpelweg nieuwe data kunnen genereren zonder contextuele betekenis.<br/><br/>Voordelen van LLM's zijn hun veelzijdigheid, het vermogen om complexe taalkundige taken uit te voeren en om de context van de tekst te begrijpen. Een nadeel is dat ze zeer rekenintensief zijn en grote hoeveelheden data en rekenkracht vereisen. Ook kunnen ze gevoelig zijn voor vooringenomenheid en fouten, vooral als de trainingsdata onvolledig of onjuist is. Het is daarom belangrijk om kritisch te blijven bij het gebruik van LLM's en de resultaten te verifiëren en valideren voordat ze worden gebruikt.<br/><br/>Binnen het Kadaster onderzoeken we onder andere LLM's om informatie uit aktes te extraheren, wat nu nog een handmatige taak is."
+        "description": "Large Language Models (LLM) zijn neurale netwerkmodellen die getraind worden op grote hoeveelheden tekstuele data om complexe taalkundige taken uit te voeren. LLM's gebruiken transformer-modellen om natuurlijke taal in een interne representatie te coderen, waardoor het model in staat is om verbanden te leggen tussen verschillende delen van de tekst. Hierdoor kan het model taken uitvoeren zoals vertalen, samenvatten, vragen beantwoorden en genereren van tekst.\n<br/><br/>\nBinnen het Kadaster onderzoeken we onder andere LLM's om informatie uit aktes te extraheren, wat nu nog een handmatige taak is. LLM's stellen ons in staat om aktes te begrijpen. Dit is iets waar we actief onderzoek naar doen. Daarnaast gebruiken we een LLM voor onze virtuele assistent Loki voor het bevragen van de Kadaster Knowledge Graph in natuurlijke taal.\n<br/><br/>\nDe toevoeging van een Knowledge Graph (KG) aan taalmodellen kan hun effectiviteit en nauwkeurigheid verder verbeteren. Een KG is een gestructureerde representatie van feiten, waarbij entiteiten en hun onderlinge relaties in een netwerk worden weergegeven. Dit stelt een LLM in staat om niet alleen te vertrouwen op de context binnen de tekst, maar ook op externe, gestructureerde kennis. Dit kan helpen minder onjuistheden te genereren, maar ook diepgaande antwoorden te kunnen geven over specialistische domeinen."
+    },
+    {
+        "name": "Knowledge Graphs",
+        "ring": "Adopt",
+        "quadrant": "AI en Datascience",
+        "isNew": "FALSE",
+        "description": "Een Knowledge Graph is een representatie van kennis over een bepaald domein die op een gestructureerde manier is vastgelegd. De knowledge graph is opgebouwd uit informatie afgeleid uit verschillende bronnen. Dit kunnen Kadasterbronnen, maar juist ook andere (open) data bronnen zijn. Voor een gebruiker is de knowledge graph toegankelijk als één geheel, en via verschillende manieren toegankelijk. Zo is de representatie vindbaar in de standaard zoekmachines (bijv. Google) en bevraagbaar middels query API’s zoals GraphQL en SPARQL. Een knowledge graph is gebaseerd op de concepten van Linked Data; zoals het gebruik van semantische modellering op basis van standaarden SKOS en OWL, maar ook het toekennen en linken via unieke identifiers (de URIs). Door deze open standaarden te combineren met de domein- en semantische kennis van de data eigenaren wordt (geo-)data voor iedereen begrijpelijk en toegankelijk.\n<br/><br/>\nVoor Kadaster biedt de Knowledge Graph mogelijkheden om meerdere (Kadaster) datasets integraal bevraagbaar te maken, alsmede data van collega-overheden en marktpartijen, zie <a href=\"https://labs.kadaster.nl/thema/Knowledge_graph\" target=\"_blank\">Thema Knowledge Graph</a>. Ook kan de knowledge graph gebruikt worden als ondergrond voor een self-service analyse platform op het Web. Tenslotte hebben we aangetoond dat een Knowledge Graph de onderliggende basis is waar een chatbot (zoals Loki) haar antwoorden op baseert. Door het gebruik van een Knowledge Graph kunnen we geïsoleerde databronnen met elkaar verbinden, wat onze diensten nuttiger maakt voor onze gebruikers.\n<br/><br/>\nDaarnaast onderzoeken we bij het Kadaster hoe we private data kunnen ontsluiten binnen een publieke Knowledge Graph, door middel van authorisaties. Dit stelt organisaties in staat om op een open en makkelijke manier ook gesloten data te kunnen delen. Meer informatie over dit onderzoek staat op de <a href=\"https://labs.kadaster.nl/cases/lockunlock\" target=\"_blank\">Lock - Unlock informatiepagina<a/>."
+    },
+    {
+        "name": "Web3",
+        "ring": "Monitor",
+        "quadrant": "Federatieve Datadeling",
+        "isNew": "FALSE",
+        "description": "Je kan dit zien als een nieuwe technische infrastructuur, een doorontwikkeling van het internet, waarop toepassingen en visualisaties zoals metaverse kunnen draaien. Web3 is ingegeven door een beweging weg van (de macht van) Tech Reuzen richting privacy en een beter internet. Blockchain technologie maakt het mogelijk om eigenaarschap over jouw data te houden en schept vertrouwen in data. Het biedt de mogelijkheid tot decentrale entiteiten die impact hebben in breder verband, interactie, uitwisselingsprotocollen en eventueel cryptocurrencies en NFTs. Web3 houdt verband met o.a. Metaverse, Blockchain en Self-sovereign Identity die ook in deze radar staan."
+    },
+    {
+        "name": "Personal Online Datastores",
+        "ring": "Monitor",
+        "quadrant": "Federatieve Datadeling",
+        "isNew": "FALSE",
+        "description": "Personal Online Datastores (PODs) zijn oplossingen die het mogelijk maken om je data op een veilige manier, decentraal, op te slaan. Een POD kan zelf gehost worden of worden afgenomen bij een aanbieder naar keuze. Het meest bekende voorbeeld van PODs is de Solid specificatie. Het is een beweging, voornamelijk gedreven door Europese wetgeving, die de macht en afhankelijkheid van Big Tech wil verkleinen door data en applicatie te scheiden. Ook moet het burgers weer regie op hun eigen gegevens brengen. Een POD lijkt in zijn functionaleit erg op wallets. Hierbij worden wallets offline gebruikt en PODs online. Omdat er geen duidelijke use case rondom PODs is voor het Kadaster en de techniek nog volop in ontwikkeling is, blijft het Kadaster voor nu de ontwikkeling monitoren. Zie ook onze <a href=\"/cases/Solid-Pods\" target=\"_blank\">Solid Quest</a>."
+    },
+    {
+        "name": "Dataspace",
+        "ring": "",
+        "quadrant": "Federatieve Datadeling",
+        "isNew": "TRUE",
+        "description": "Waar kluizen, sluizen en wallets zich richten op individuen, richten dataspaces zich op organisaties en industrieën. Een dataspace heeft als doel het stimuleren van datadeling en samenwerking terwijl organisaties controle houden over hun data. Klinkt als een fancy omschrijving voor afsprakenstelsel. Dataspaces worden genoemd in de Europese Data Governance Act. In 2023 heeft het Kadaster een onderzoek uitgevoerd naar dataspaces en kwamen zij tot de conclusie dat er geen eenduidige definitie bestaat maar wel terugkerende kenmerken zoals interoperabiliteit, spelregels voor gebruik en data bij de bron. Het Kadaster levert anno 2024 een bijdrage aan het ontwikkelen van het Federatief Datastels, een iniatief onder de vlag van de Interbestuurlijke Datastrategie van BZK."
+    },
+    {
+        "name": "Metaverse",
+        "ring": "Monitor",
+        "quadrant": "Federatieve Datadeling",
+        "isNew": "FALSE",
+        "description": "De term metaverse werd in 2021 een enorme hype. De grote Tech Reuzen besteden hier veel aandacht aan, met als meest iconische voorbeeld de naamsverandering van Facebook in Meta. Om hype van realiteit te onderscheiden heeft het Kadaster in 2022 een brainstorm gehouden om te kijken wat wij verstaan onder metaverse. Voor het Kadaster is metaverse een containerbegrip voor de verzameling virtuele werelden. De term wordt gebruikt voor zowel virtuele werelden die een afspiegeling van de werkelijkheid zijn (digital twin) alsook volledig fictieve virtuele werelden. Waar een digital twin vaak rekenen, voorspellen, simuleren en monitoren als doel heeft, focussen volledig fictieve werelden zich meer op sociale interactie en games. Hoe dan ook behelst het altijd een visualisatie in 3D. Idealiter wordt metaverse ondersteund door de mogelijkheden van Web3. Ironisch genoeg investeren de Tech Reuzen het meeste geld in metaverse terwijl Web3 hen juist minder macht wil geven. Voor nu is het voldoende om de ontwikkelingen rond metaverse te blijven monitoren."
+    },
+    {
+        "name": "Extended Reality",
+        "ring": "Assess",
+        "quadrant": "Federatieve Datadeling",
+        "isNew": "FALSE",
+        "description": "Extended reality is de overkoepelende term voor Virtual Reality (VR), Mixed Reality (MR), Augmented Reality (AR) en andere immersieve technologieën die de fysieke en digitale wereld verbinden. Hierbij gaat het vooral om de visualisatie zelf en heeft de techniek daarom ook raakvlakken met andere techs zoals digital twin. Het Kadaster onderzoekt waar VR en AR van toepassing kunnen zijn. Er zijn experimenten uitgevoerd met AR voor grensreconstructie en momenteel wordt er gewerkt aan een <a href=\"https://labs.kadaster.nl/cases/ar-applicatie\" target=\"_blank\"> AR en VR applicatie op basis van de Kadaster Knowledge Graph </a>. "
+    },
+    {
+        "name": "Blockchain",
+        "ring": "Assess",
+        "quadrant": "Federatieve Datadeling",
+        "isNew": "FALSE",
+        "description": "De hype van blockchain begint af te nemen. D.w.z. in theorie kan het nog steeds het Kadaster vervangen, maar in een land waar het Kadaster wordt vertrouwd voegt dit niets toe. Het adresseert wel een relevant onderwerp, namelijk: vertrouwen en dan met name vertrouwen in het digitale domein. Welke autoriteit 'zegt' dat data klopt en wat zegt dat dan? Een voorbeeld is Self-sovereign Idenitity (zie verderop in de radar). Voor het scheppen van vertrouwen in uitgegeven credentials is een decentraal beheerd, onveranderlijk en openbaar register waarin de metadata van uitgegeven credentials als anonieme gegevens voor iedereen te raadplegen zijn, noodzakelijk. Voor dit register lijkt een Blockchain ideaal en er is reeds een European Blockchain Services Infrastructure (EBSI) opgezet. <br>\nDe technologie onder blockchain heet Distributed Ledger Technology. Dit is een technische oplossing om een gedistribueerde ledger, grootbook of database te beheren. Hier zijn vele verschijningsvormen van waarbij over het algemeen geldt dat de data vaak niet rechtstreeks op de blockchain (in de ledger) wordt opgeslagen, maar erbuiten en alleen de 'administratie' van de ledger erin wordt vastgelegd. Deze technologie biedt mogelijkheden om decentraal wijzigingen te doen terwijl er toch met een groter geheel integriteit wordt bewaakt. Dit onderdeel van blockchain heeft het Kadaster met succes toegepast in <a href='/demonstrators/sensrnet/index.html' target=\"_blank\">SensRNet</a>, een nieuwe nationale registratie van sensoren waarin deelnemers (nodes) in het register(netwerk) zelf sensoren kunnen beheren, terwijl de data integriteit en koppeling tussen de deelnemers door blockchain worden gegarandeerd. Als zodanig wordt blockchain of DLT, onderdeel van het nieuwe internet voor specifieke onderdelen en aspecten waarin data decentraal gedeeld moet worden."
+    },
+    {
+        "name": "Fediverse",
+        "ring": "Explore",
+        "quadrant": "Federatieve Datadeling",
+        "isNew": "TRUE",
+        "description": "De Fediverse is een netwerk van gedecentraliseerde sociale mediaplatforms, zoals Mastodon, die gebruikers de mogelijkheid bieden om zelfstandig netwerken te hosten en te beheren, terwijl ze onderling verbonden blijven. Dit alternatief voor gecentraliseerde sociale media vermindert de afhankelijkheid van grote technologiebedrijven, biedt meer controle over data en privacy, en ondersteunt vrijheid van meningsuiting en inhoudsdiversiteit.\n<br/><br/>\nEen voorbeeld van de Fediverse in de praktijk is social.overheid.nl, een platform van de Nederlandse overheid op Mastodon. Dit initiatief stelt overheidsinstanties in staat om direct en onafhankelijk met burgers te communiceren, zonder tussenkomst van commerciële platforms, waardoor openheid en digitale soevereiniteit worden bevorderd."
     },
     {
         "name": "Cloud Computing",
         "ring": "Adopt",
         "quadrant": "Moderne IT",
         "isNew": "FALSE",
-        "description": "Cloud Computing is een omvangrijke term die vooral de ontwikkeling van de virtualisatie duidt: van hardware naar virtuele machines (VMs) naar containers naar serverless. In dit spectrum is 'containerization' op dit moment redelijk mainstream aan het worden cq geworden voor huidige software systemen. Zowel ontwikkeltools als vele productiesystemen zijn onderverdeeld in of maken gebruik van containers. Ook het Kadaster is vergaand over naar containers en Kubernetes (container orchestration). "
+        "description": "Cloud Computing is een brede term die verwijst naar de ontwikkeling in virtualisatietechnologieën. Deze ontwikkeling omvat de transitie van fysieke hardware naar virtuele machines (VM's), en verder naar containers en serverless architecturen. Binnen dit spectrum van technologieën is 'containerization' momenteel vrij gangbaar en mainstream geworden in hedendaagse softwaresystemen. Dit houdt in dat zowel ontwikkeltools als veel productiesystemen zijn opgesplitst in of gebruikmaken van containers. Ook het Kadaster heeft grote stappen gemaakt in de overstap naar containers en Kubernetes, een systeem voor containerorkestratie.\n<br/><br/>\nEen essentieel aspect van het ontwikkelen en beheren van ons containerplatform is de implementatie van GitOps, een methode die het gebruik van Git voor operationele en ontwikkelprocessen benadrukt. Zie hiervoor ook \"GitOps\".\n<br/><br/>\nWaar mogelijk integreren we de public cloud in onze infrastructuur. Dit geeft ons de flexibiliteit om dynamisch om te gaan met onze hardwarebehoeften en stelt ons in staat om onze resources gemakkelijk op- en af te schalen. Desondanks blijven we ook gebruikmaken van onze private cloud, voornamelijk voor de verwerking van data die gevoelig is voor privacykwesties."
     },
     {
         "name": "Empowered Edge",
@@ -123,7 +179,7 @@
         "ring": "Adopt",
         "quadrant": "Moderne IT",
         "isNew": "FALSE",
-        "description": "Low en No Code klinkt als een fantastische oplossing voor het tekort aan ontwikkelaars en het beschikbaar maken van rijke IT mogelijkheden aan business gebruikers (citizen developers). Onze visie daarop is dat 'traditionele' software ontwikkeling ook gericht is op zo weinig mogelijk code. De kracht van Low/No Code platformen, nadat deze eenmaal zijn ingericht (wat tijd en geld kost), is een snel begin voor snelle oplossingen. De vendor lock-in van een platform en de onderhoudbaarheid in de toekomst zijn serieuze risico's die meegenomen moeten worden bij het inzetten van dit soort platformen. Low code is in onze ogen daarom met name geschikt voor niet kritieke systemen.  .<br/><br/> Binnen het Kadaster hebben we een Mendix team die low code toepassingen bouwt. Een van de applicaties is de registratie van luchtvaartuigen. Dit is een kleine registratie die met Mendix snel geautomatiseerd worden. "
+        "description": "Low- en No-Code oplossingen lijken ideaal om het tekort aan ontwikkelaars aan te pakken en geavanceerde IT-mogelijkheden toegankelijk te maken voor zakelijke gebruikers, ook wel bekend als 'citizen developers'. Onze visie hierop is dat zelfs in 'traditionele' softwareontwikkeling het streven is om zo min mogelijk code te gebruiken. De ware kracht van Low/No-Code platformen, na een initiële opzet die tijd en investering vereist, ligt in de mogelijkheid om snel te starten met het ontwikkelen van snelle oplossingen. Echter, de afhankelijkheid van een specifiek platform (vendor lock-in) en de vraagstukken rondom onderhoud op lange termijn zijn serieuze overwegingen bij het gebruik van deze platformen. Daarom zien wij Low-Code voornamelijk als een geschikte optie voor systemen die niet kritiek zijn.\n<br/><br/>\nBij het Kadaster hebben we een gespecialiseerd Mendix team. Dit team heeft onder andere een applicatie ontwikkeld voor de registratie van luchtvaartuigen. Dit betreft een klein register dat dankzij de inzet van Mendix snel en efficiënt geautomatiseerd kon worden."
     },
     {
         "name": "Open Source Software",
@@ -144,77 +200,21 @@
         "ring": "Monitor",
         "quadrant": "Moderne IT",
         "isNew": "TRUE",
-        "description": ""
+        "description": "Lange-termijn dataopslag, gericht op het veilig bewaren van archiefdata, zoekt oplossingen voor de beperkingen van traditionele opslagmedia zoals harde schijven en optische schijven. Deze zijn beperkt in hun duurzaamheid en betrouwbaarheid, wat een uitdaging vormt in een tijdperk waarin de hoeveelheid digitale informatie exponentieel groeit.\n<br/><br/>\nInnovaties zoals dataopslag op glas gebruiken lasertechnologie om data in glas te etsen, creërend een bijna onverwoestbaar medium bestand tegen extreme omstandigheden. Dit biedt een duurzame oplossing voor langdurige archivering. Een andere richting is DNA-dataopslag, waarbij de hoge datadichtheid van DNA wordt benut. DNA kan veel informatie opslaan en is zeer duurzaam, waardoor het geschikt is voor het bewaren van informatie over duizenden jaren. Beide technieken bieden veelbelovende oplossingen voor de uitdagingen van lange-termijn dataopslag."
     },
     {
         "name": "GitOps",
         "ring": "Adopt",
         "quadrant": "Moderne IT",
         "isNew": "TRUE",
-        "description": ""
-    },
-    {
-        "name": "Privacy Enhancing Technologies",
-        "ring": "Explore",
-        "quadrant": "Privacy- bescherming",
-        "isNew": "FALSE",
-        "description": "Dit is een verzamelnaam voor technieken die gebruikt kunnen worden om data te beschermen. Het doel is om de privacy zoveel mogelijk te waarborgen zonder de functionaliteit van systemen te verliezen. Voorbeelden van privacy enhancing technologies zijn Multi-Party Computation (MPC), Federated learning, Differential Privacy maar ook data anonimisering en pseudonimisering. Het ETC heeft de mogelijkheden van MPC onderzocht d.m.v. deelname aan een MPC pilot met o.a. KvK & TNO."
-    },
-    {
-        "name": "Self-Sovereign Identity",
-        "ring": "Monitor",
-        "quadrant": "Privacy- bescherming",
-        "isNew": "FALSE",
-        "description": "Self-sovereign identity (SSI) is een concept waarbij individuen de controle hebben over hun eigen digitale identiteit. Dit betekent dat ze in staat zijn om hun persoonlijke gegevens te beheren en te delen zonder afhankelijk te zijn van een enkele centrale autoriteit of partij zoals een Gemeente of Meta. Bij SSI maken personen gebruik van digitale (identiteits)gegevens die door betrouwbare bronnen zijn uitgegeven. Hiervoor kan gebruik worden gemaakt van verifiable credentials (VC’s). Een VC is een digitaal bewijsstuk dat door een betrouwbare bron is uitgegeven en dat kan worden gebruikt om de identiteit of attributen van een persoon te verifiëren. Dit kan bijvoorbeeld een diploma of een rijbewijs zijn. Deze VC’s worden opgeslagen in een wallet (offline) of POD (online). Deze is alleen toegankelijk voor de eigenaar en kan worden gebruikt om hun identiteit te bewijzen terwijl er zo min mogelijk persoonlijke informatie wordt gedeeld. Hierdoor hebben individuen controle over hoe en wanneer hun (identiteits)gegevens worden gedeeld.<br/><br/>SSI wordt momenteel veel onderzocht, dit komt onder andere door de aangekondigde komst van een Europese Digitale Identiteit en de ontwikkeling van een Nederlandse wallet waarin burgers attributen kunnen gaan laden. Het Kadaster kan binnen SSI de rol van uitgever, issuer, spelen. Zo kan het Kadaster bijv. een eigendomscertificaat gaan uitgeven. Het is daarom relevant om deze ontwikkeling te blijven volgen."
-    },
-    {
-        "name": "Web3",
-        "ring": "Monitor",
-        "quadrant": "Federatieve Datadeling",
-        "isNew": "TRUE",
-        "description": "Je kan dit zien als een nieuwe technische infrastructuur, een doorontwikkeling van het internet, waarop toepassingen en visualisaties zoals metaverse kunnen draaien. Web3 is ingegeven door een beweging weg van (de macht van) Tech Reuzen richting privacy en een beter internet. Blockchain technologie maakt het mogelijk om eigenaarschap over jouw data te houden en schept vertrouwen in data. Het biedt de mogelijkheid tot decentrale entiteiten die impact hebben in breder verband, interactie, uitwisselingsprotocollen en eventueel cryptocurrencies en NFTs. Web3 houdt verband met o.a. Metaverse, Blockchain en Self-sovereign Identity die ook in deze radar staan."
-    },
-    {
-        "name": "Personal Online Datastores",
-        "ring": "Monitor",
-        "quadrant": "Federatieve Datadeling",
-        "isNew": "TRUE",
-        "description": "Personal Online Datastores (PODs) zijn oplossingen die het mogelijk maken om je data op een veilige manier, decentraal, op te slaan. Een POD kan zelf gehost worden of worden afgenomen bij een aanbieder naar keuze. Het meest bekende voorbeeld van PODs is de Solid specificatie. Het is een beweging, voornamelijk gedreven door Europese wetgeving, die de macht en afhankelijkheid van Big Tech wil verkleinen door data en applicatie te scheiden. Ook moet het burgers weer regie op hun eigen gegevens brengen. Een POD lijkt in zijn functionaleit erg op wallets. Hierbij worden wallets offline gebruikt en PODs online. Omdat er geen duidelijke use case rondom PODs is voor het Kadaster en de techniek nog volop in ontwikkeling is, blijft het Kadaster voor nu de ontwikkeling monitoren. Zie ook onze <a href=\"/cases/Solid-Pods\" target=\"_blank\">Solid Quest</a>."
-    },
-    {
-        "name": "Kluis",
-        "ring": "",
-        "quadrant": "Privacy- bescherming",
-        "isNew": "TRUE",
-        "description": ""
-    },
-    {
-        "name": "Sluis",
-        "ring": "",
-        "quadrant": "Privacy- bescherming",
-        "isNew": "TRUE",
-        "description": ""
-    },
-    {
-        "name": "Wallet",
-        "ring": "",
-        "quadrant": "Privacy- bescherming",
-        "isNew": "TRUE",
-        "description": ""
-    },
-    {
-        "name": "Dataspace",
-        "ring": "",
-        "quadrant": "Federatieve Datadeling",
-        "isNew": "TRUE",
-        "description": ""
+        "description": "GitOps is een benadering van softwarebeheer waarbij Git, het versiebeheersysteem, centraal staat in zowel de ontwikkeling als operaties. Deze methode bevordert automatisering, consistentie, en efficiëntie in DevOps-praktijken. Door Git te gebruiken als de enkele bron van waarheid, vergemakkelijkt GitOps het beheer van infrastructuur en applicaties, wat leidt tot verbeterde zichtbaarheid en betrouwbaarheid.\n<br/><br/>\nBinnen het Kadaster hebben we het Managed Application Platform (MAP) ontwikkeld. Dit platform, gebaseerd op GitOps principes, dient als een centrale plaats voor governance en standaardisatie. MAP vermindert de algemene kosten en minimaliseert verstoringen door processen correct uit te voeren. Daarnaast biedt het een standaard voor de ontwikkelingsprocessen en een centrale locatie voor codekwaliteit en beveiligingsscans."
     },
     {
         "name": "Digital Twin",
         "ring": "Explore",
         "quadrant": "Moderne IT",
-        "isNew": "TRUE",
-        "description": "De digitale revolutie heeft momenteel de wereld in beweging gebracht en de versmelting van de fysieke en digitale wereld is zichtbaar in het opkomen van digital twins. Een digital twin is een digitale weergave van een fysiek object. Het Kadaster beschouwt een digital twin van de gebouwde omgeving als het meest relevant. Dit is een dynamische digitale representatie van de fysieke wereld die gebruikersvriendelijke visualisaties van zowel de boven- als ondergrond biedt en in staat is om de fysieke wereld beter te laten functioneren door bijvoorbeeld te simuleren, monitoren en voorspellen.<br/><br/>Het Kadaster speelt een belangrijke rol bij het ontwikkelen van digital twins door het bieden van data en technische bouwblokken voor de creatie van deze twins. Het Kadaster's rol als facilitator maakt het mogelijk voor andere partijen om digital twins te creëren en daarmee bij te dragen aan een betere fysieke wereld. Dit zien we bijvoorbeeld terug in het ontwikkelen van geluidsmodellen, voor het voorspellen en beperken van geluidsoverlast. Op basis van Kadasterdata kan één gezamelijk 3D-model gebruikt worden, waardoor verschillende partijen dezelfde digitale weergave als uitgangspunt kunnen nemen."
+        "isNew": "FALSE",
+        "description": "De digitale revolutie heeft momenteel de wereld in beweging gebracht en de versmelting van de fysieke en digitale wereld is zichtbaar in het opkomen van digital twins. Een digital twin is een digitale weergave van een fysiek object. Het Kadaster beschouwt een digital twin van de gebouwde omgeving als het meest relevant. Dit is een dynamische digitale representatie van de fysieke wereld die gebruikersvriendelijke visualisaties van zowel de boven- als ondergrond biedt en in staat is om de fysieke wereld beter te laten functioneren door bijvoorbeeld te simuleren, monitoren en voorspellen.<br/><br/>Het Kadaster speelt een belangrijke rol bij het ontwikkelen van digital twins door het bieden van data en technische bouwblokken voor de creatie van deze twins. Het Kadaster's rol als facilitator maakt het mogelijk voor andere partijen om digital twins te creëren en daarmee bij te dragen aan een betere fysieke wereld. Dit zien we bijvoorbeeld terug in het ontwikkelen van geluidsmodellen, voor het voorspellen en beperken van geluidsoverlast. Op basis van Kadasterdata kan één gezamelijk 3D-model gebruikt worden, waardoor verschillende partijen dezelfde digitale weergave als uitgangspunt kunnen nemen. Vanuit Werk aan Uitvoering (WaU) bouwt het Kadaster een 3D Basismodel Fysieke Leefomgeving"
     },
     {
         "name": "Smart City",
@@ -222,41 +222,6 @@
         "quadrant": "Moderne IT",
         "isNew": "FALSE",
         "description": "Smart Cities zijn onderdeel van Smart Anything is op dit moment de meest relevante subcategorie voor het Kadaster. Het Kadaster zal zelf geen Smart Cities gaan ontwikkelen maar kan een aandeel hebben in het leveren van de data en kan participeren in de ontwikkeling van een Smart City. Het Kadaster heeft  laatst samen met 50 andere partijen de \"<a href=\"https://agendastad.nl/citydeal/een-slimme-stad-zo-doe-je-dat/\" target=\"_blank\">City Deal; een slimme stad zo doe je dat</a>\" ondertekend."
-    },
-    {
-        "name": "Metaverse",
-        "ring": "Monitor",
-        "quadrant": "Federatieve Datadeling",
-        "isNew": "TRUE",
-        "description": "De term metaverse werd in 2021 een enorme hype. De grote Tech Reuzen besteden hier veel aandacht aan, met als meest iconische voorbeeld de naamsverandering van Facebook in Meta. Om hype van realiteit te onderscheiden heeft het Kadaster in 2022 een brainstorm gehouden om te kijken wat wij verstaan onder metaverse. Voor het Kadaster is metaverse een containerbegrip voor de verzameling virtuele werelden. De term wordt gebruikt voor zowel virtuele werelden die een afspiegeling van de werkelijkheid zijn (digital twin) alsook volledig fictieve virtuele werelden. Waar een digital twin vaak rekenen, voorspellen, simuleren en monitoren als doel heeft, focussen volledig fictieve werelden zich meer op sociale interactie en games. Hoe dan ook behelst het altijd een visualisatie in 3D. Idealiter wordt metaverse ondersteund door de mogelijkheden van Web3. Ironisch genoeg investeren de Tech Reuzen het meeste geld in metaverse terwijl Web3 hen juist minder macht wil geven. Voor nu is het voldoende om de ontwikkelingen rond metaverse te blijven monitoren."
-    },
-    {
-        "name": "Extended Reality",
-        "ring": "Assess",
-        "quadrant": "Federatieve Datadeling",
-        "isNew": "FALSE",
-        "description": "Extended reality is de overkoepelende term voor Virtual Reality (VR), Mixed Reality (MR), Augmented Reality (AR) en andere immersieve technologieën die de fysieke en digitale wereld verbinden. Hierbij gaat het vooral om de visualisatie zelf en heeft de techniek daarom ook raakvlakken met andere techs zoals digital twin. Het Kadaster onderzoekt waar VR en AR van toepassing kunnen zijn. Er zijn experimenten uitgevoerd met AR voor grensreconstructie en momenteel wordt er gewerkt aan een <a href=\"https://labs.kadaster.nl/cases/ar-applicatie\" target=\"_blank\"> AR en VR applicatie op basis van de Kadaster Knowledge Graph </a>. "
-    },
-    {
-        "name": "Blockchain",
-        "ring": "Assess",
-        "quadrant": "Federatieve Datadeling",
-        "isNew": "FALSE",
-        "description": "De hype van blockchain begint af te nemen. D.w.z. in theorie kan het nog steeds het Kadaster vervangen, maar in een land waar het Kadaster wordt vertrouwd voegt dit niets toe. Het adresseert wel een relevant onderwerp, namelijk: vertrouwen en dan met name vertrouwen in het digitale domein. Welke autoriteit 'zegt' dat data klopt en wat zegt dat dan? Een voorbeeld is Self-sovereign Idenitity (zie verderop in de radar). Voor het scheppen van vertrouwen in uitgegeven credentials is een decentraal beheerd, onveranderlijk en openbaar register waarin de metadata van uitgegeven credentials als anonieme gegevens voor iedereen te raadplegen zijn, noodzakelijk. Voor dit register lijkt een Blockchain ideaal en er is reeds een European Blockchain Services Infrastructure (EBSI) opgezet. <br>\nDe technologie onder blockchain heet Distributed Ledger Technology. Dit is een technische oplossing om een gedistribueerde ledger, grootbook of database te beheren. Hier zijn vele verschijningsvormen van waarbij over het algemeen geldt dat de data vaak niet rechtstreeks op de blockchain (in de ledger) wordt opgeslagen, maar erbuiten en alleen de 'administratie' van de ledger erin wordt vastgelegd. Deze technologie biedt mogelijkheden om decentraal wijzigingen te doen terwijl er toch met een groter geheel integriteit wordt bewaakt. Dit onderdeel van blockchain heeft het Kadaster met succes toegepast in <a href='/demonstrators/sensrnet/index.html' target=\"_blank\">SensRNet</a>, een nieuwe nationale registratie van sensoren waarin deelnemers (nodes) in het register(netwerk) zelf sensoren kunnen beheren, terwijl de data integriteit en koppeling tussen de deelnemers door blockchain worden gegarandeerd. Als zodanig wordt blockchain of DLT, onderdeel van het nieuwe internet voor specifieke onderdelen en aspecten waarin data decentraal gedeeld moet worden."
-    },
-    {
-        "name": "Autonomous Things",
-        "ring": "Monitor",
-        "quadrant": "Verwijderen",
-        "isNew": "FALSE",
-        "description": "Robots, drones, auto's en andere autonome apparaten zijn sterk in ontwikkeling en beloven grote impact in onze manier van leven te gaan hebben. We zien steeds vaker dat deze 'dingen' taken uitvoeren die eerst door mensen werden uitgevoerd en dus taken overnemen of dat het onze taak ondersteunt en dat ons werk er door verandert.<br/><br/>Voor het Kadaster zien we daar niet direct veel toepassing voor aangezien ons werk voornamelijk administratief is of heel specifiek in de ruimte (geografisch) zich afspeelt. Wel voorzien we mogelijke impact van deze trend in het registreren van deze autonomous things, zeker als daar rechten en financieringen op bijgehouden moeten worden. Het Kadaster zou daar mogelijk een rol in kunnen gaan spelen."
-    },
-    {
-        "name": "Knowledge Graphs",
-        "ring": "Adopt",
-        "quadrant": "AI en Datascience",
-        "isNew": "FALSE",
-        "description": "Een Knowledge Graph is een representatie van kennis over een bepaald domein die op een gestructureerde manier is vastgelegd. De knowledge graph is opgebouwd uit informatie afgeleid uit verschillende bronnen. Dit kunnen Kadaster bronnen, maar juist ook andere (open) data bronnen zijn. Voor een gebruiker is de knowledge graph toegankelijk als één geheel, en via verschillende manieren toegankelijk. Zo is de representatie vindbaar in de standaard zoekmachines (bijv. Google) en bevraagbaar middels query API’s zoals GraphQL en SPARQL. Een knowledge graph is gebaseerd op de concepten van Linked Data; zoals het gebruik van semantische modellering op basis van standaarden SKOS en OWL, maar ook het toekennen en linken via unieke identifiers (de URIs). Door deze open standaarden te combineren met de domein- en semantische kennis van de data eigenaren wordt (geo-)data voor iedereen begrijpelijk en toegankelijk. Voor Kadaster biedt de Knowledge Graph mogelijkheden om meerdere (Kadaster) datasets integraal bevraagbaar te maken, alsmede data van collega-overheden en marktpartijen, zie <a href=\"https://labs.kadaster.nl/thema/Knowledge_graph\" target=\"_blank\">Thema Knowledge Graph</a>. Ook kan de knowledge graph gebruikt worden als ondergrond voor een self-service analyse platform op het Web. Tenslotte hebben we aangetoond dat een Knowledge Graph de onderliggende basis is waar een chatbot (zoals Loki) haar antwoorden op baseert. Met een Knowledge Graph doorbreken we het silo denken in Data en worden wij relevanter voor onze gebruikers. AUTORISATIES OP DE KNOWLEDGE GRAPH: LOCK - UNLOCK"
     },
     {
         "name": "Metadata Management",
@@ -269,8 +234,50 @@
         "name": "Point Clouds",
         "ring": "Explore",
         "quadrant": "Moderne IT",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "Een point cloud (puntenwolk) is een 3d foto van een omgeving met achterliggende coördinaten. Ze worden gemaakt met een lidar scanner (Light Detection and Ranging) of op basis van photogrammetrische technieken. Dit wordt een non-contact, non-destructive technologie genoemd om een digitale vorm te maken van een fysieke vorm. Dit wordt al breed toegepast in vele gebieden zoals agrarische en bouw sector. Bij het Kadaster zijn er twee toepassingsgebieden: Landmeetkunde en Geo. Binnen Landmeetkunde heeft een onderzoek plaatsgevonden of puntenwolken van derden (dus niet zelfingewonnen puntenwolken) kunnen worden toegepast voor 'plaats- en tijd onafhankelijk aanwijs halen'. Hierbij werd gekeken hoe puntenwolken in de communicatie met stakeholders buiten het kadaster (de eigenaren van de gens) gebruikt kunnen worden. Onder particuliere klanten was er weinig behoefte voor deze manier van aanwijs halen en werd een fysiek bezoek van de landmeter meer gewaardeerd. Daarnaast is ook gekeken hoe we als Kadaster puntenwolken kunnen controleren op nauwkeurigheid zodat we de puntenwolk van derden voor de metingen kunnen accepteren en niet zelf hoeven in te winnen. Deze bleken nog niet van voldoende nauwkeurigheid. Binnen het GEO-domein is het Kadaster al veel verder: puntenwolken dienen mede als input voor onze 3D-basisvoorziening."
+    },
+    {
+        "name": "Privacy Enhancing Technologies",
+        "ring": "Explore",
+        "quadrant": "Privacy- bescherming",
+        "isNew": "FALSE",
+        "description": "Dit is een verzamelnaam voor technieken die gebruikt kunnen worden om persoonsgegevens beter te beschermen. Het doel is om de privacy zo veel mogelijk te waarborgen zonder de functionaliteit van systemen te verliezen. Voorbeelden van privacy enhancing technologies zijn Multi-Party Computation (MPC), Federated learning, Differential Privacy maar ook data anonimisering en pseudonimisering. Het ETC heeft in 2021 de mogelijkheden van MPC onderzocht d.m.v. deelname aan een MPC pilot met o.a. KvK & TNO. Team Onderzoek start in 2024 een verkenning naar synthetische data. Dit is een fictief gegenereerde dataset, met behoud van de relaties en patronen uit de originele dataset maar niet herleidbaar naar (individuele) personen uit die originele dataset."
+    },
+    {
+        "name": "Self-Sovereign Identity",
+        "ring": "Monitor",
+        "quadrant": "Privacy- bescherming",
+        "isNew": "FALSE",
+        "description": "Self-sovereign identity (SSI) is een concept waarbij individuen de controle hebben over hun eigen digitale identiteit. Dit betekent dat ze in staat zijn om hun persoonlijke gegevens te beheren en te delen zonder afhankelijk te zijn van een enkele centrale autoriteit of partij zoals een Gemeente of Meta. Bij SSI maken personen gebruik van digitale (identiteits)gegevens die door betrouwbare bronnen zijn uitgegeven. Hiervoor kan gebruik worden gemaakt van verifiable credentials (VC’s). Een VC is een digitaal bewijsstuk dat door een betrouwbare bron is uitgegeven en dat kan worden gebruikt om de identiteit of attributen van een persoon te verifiëren. Dit kan bijvoorbeeld een diploma of een rijbewijs zijn. Deze VC’s worden opgeslagen in een wallet (offline) of kluis (online). Deze is alleen toegankelijk voor de eigenaar en kan worden gebruikt om hun identiteit te bewijzen terwijl er zo min mogelijk persoonlijke informatie wordt gedeeld. Hierdoor hebben individuen controle over hoe en wanneer hun (identiteits)gegevens worden gedeeld.<br/><br/>SSI wordt momenteel veel onderzocht, dit komt onder andere door de aangekondigde komst van een Europese Digitale Identiteit en de ontwikkeling van een Nederlandse wallet waarin burgers attributen kunnen gaan laden. Het Kadaster kan binnen SSI de rol van uitgever, issuer, spelen. Zo kan het Kadaster bijv. een eigendomscertificaat gaan uitgeven. Het is daarom relevant om deze ontwikkeling te blijven volgen."
+    },
+    {
+        "name": "Kluis",
+        "ring": "Assess",
+        "quadrant": "Privacy- bescherming",
+        "isNew": "TRUE",
+        "description": "Een kluis is één van de mogelijke persoonlijke datamanagement oplossingen. Voor al deze oplossingen geldt dat je zelf toestemming moet geven om de data te delen met als doel meer regie geven over de persoonlijke data. Een kluis is een online omgeving waar jij, of anderen, documenten in kunnen opslaan. Een kluis kan zelf gehost worden of worden afgenomen bij een aanbieder naar keuze. Het meest bekende voorbeeld van een kluis is de Solid specificatie. De Stichting Nederlandse Datakluis werkt aan een soortgelijke oplossing waarbij de eerste functionaliteit inloggen moet worden. Het is een beweging, voornamelijk gedreven door Europese wetgeving, die de macht en afhankelijkheid van Big Tech wil verkleinen door data en applicatie te scheiden. Ook moet het burgers weer regie op hun eigen gegevens brengen. Een kluis lijkt in zijn functionaleit erg op wallets. Hierbij worden wallets offline gebruikt en kluizen online. Omdat er geen duidelijke use case rondom kluizen is voor het Kadaster en de techniek nog volop in ontwikkeling is, blijft het Kadaster voor nu de ontwikkeling monitoren. Zie ook onze <a href=\"/cases/Solid-Pods\" target=\"_blank\">Solid Quest</a>."
+    },
+    {
+        "name": "Sluis",
+        "ring": "Assess",
+        "quadrant": "Privacy- bescherming",
+        "isNew": "TRUE",
+        "description": "Een Sluis is één van de mogelijke persoonlijke datamanagement oplossingen. Voor al deze oplossingen geldt dat je zelf toestemming moet geven om de data te delen met als doel meer regie geven over de persoonlijke data. Een sluis slaat geen data op maar kan namens jou je gegevens doorleveren vanaf een bron. Een voorbeeld van een sluis is Ockto. Via hen kan je bijvoorbeeld gegevens over je studieschuld, geregistreerd bij DUO, doorleveren aan je potentiële hypotheekverstrekker. De sluis lijkt de minst populaire persoonlijke datamanagement oplossing en het meeste onderzoek en voortgang zit in kluizen en wallets."
+    },
+    {
+        "name": "Wallet",
+        "ring": "Assess",
+        "quadrant": "Privacy- bescherming",
+        "isNew": "TRUE",
+        "description": "Een wallet is één van de mogelijke persoonlijke datamanagement oplossingen. Voor al deze oplossingen geldt dat je zelf toestemming moet geven om de data te delen met als doel meer regie geven over de persoonlijke data. Een wallet is een applicatie op je telefoon waarmee je verschillende kenmerken over jezelf kunt delen, bijvoorbeeld door het laten scannen van een QR code. Deze kenmerken worden opgeslagen als Verifiable Credentials. Zie ook \"Self-Sovereign Identity\". Het meest bekende voorbeeld van een wallet in Nederland is Yivi, voorheen bekend als IRMA. Ook wordt er gewerkt aan de nl-wallet als voorbeeld implementatie van de Europese Digitale Identiteit. Zie: https://github.com/MinBZK/nl-wallet."
+    },
+    {
+        "name": "Autonomous Things",
+        "ring": "Monitor",
+        "quadrant": "Verwijderen",
+        "isNew": "FALSE",
+        "description": "Robots, drones, auto's en andere autonome apparaten zijn sterk in ontwikkeling en beloven grote impact in onze manier van leven te gaan hebben. We zien steeds vaker dat deze 'dingen' taken uitvoeren die eerst door mensen werden uitgevoerd en dus taken overnemen of dat het onze taak ondersteunt en dat ons werk er door verandert.<br/><br/>Voor het Kadaster zien we daar niet direct veel toepassing voor aangezien ons werk voornamelijk administratief is of heel specifiek in de ruimte (geografisch) zich afspeelt. Wel voorzien we mogelijke impact van deze trend in het registreren van deze autonomous things, zeker als daar rechten en financieringen op bijgehouden moeten worden. Het Kadaster zou daar mogelijk een rol in kunnen gaan spelen."
     },
     {
         "name": "Smart Anything",
@@ -285,12 +292,5 @@
         "quadrant": "Verwijderen",
         "isNew": "FALSE",
         "description": "We zien dat het steeds goedkoper wordt om satellieten de lucht in te brengen en daardoor komen er ook steeds meer bij. Het gaat met name om een toename in Low Earth Orbit (LEO) satellieten. Voor het Kadaster zien we 3 mogelijk relevante doeleinden van satellieten; gps, low latency internet en remote sensing. Deze kunnen verder onderzocht worden.  "
-    },
-    {
-        "name": "Fediverse",
-        "ring": "Explore",
-        "quadrant": "Federatieve Datadeling",
-        "isNew": "TRUE",
-        "description": ""
     }
 ]
