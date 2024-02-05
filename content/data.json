@@ -79,9 +79,9 @@
     {
         "name": "Knowledge Graphs",
         "ring": "Adopt",
-        "quadrant": "AI en Datascience",
+        "quadrant": "Federatieve Datadeling",
         "isNew": "FALSE",
-        "description": "Een Knowledge Graph is een representatie van kennis over een bepaald domein die op een gestructureerde manier is vastgelegd. De knowledge graph is opgebouwd uit informatie afgeleid uit verschillende bronnen. Dit kunnen Kadasterbronnen, maar juist ook andere (open) data bronnen zijn. Voor een gebruiker is de knowledge graph toegankelijk als één geheel, en via verschillende manieren toegankelijk. Zo is de representatie vindbaar in de standaard zoekmachines (bijv. Google) en bevraagbaar middels query API’s zoals GraphQL en SPARQL. Een knowledge graph is gebaseerd op de concepten van Linked Data; zoals het gebruik van semantische modellering op basis van standaarden SKOS en OWL, maar ook het toekennen en linken via unieke identifiers (de URIs). Door deze open standaarden te combineren met de domein- en semantische kennis van de data eigenaren wordt (geo-)data voor iedereen begrijpelijk en toegankelijk.\n<br/><br/>\nVoor Kadaster biedt de Knowledge Graph mogelijkheden om meerdere (Kadaster) datasets integraal bevraagbaar te maken, alsmede data van collega-overheden en marktpartijen, zie <a href=\"https://labs.kadaster.nl/thema/Knowledge_graph\" target=\"_blank\">Thema Knowledge Graph</a>. Ook kan de knowledge graph gebruikt worden als ondergrond voor een self-service analyse platform op het Web. Tenslotte hebben we aangetoond dat een Knowledge Graph de onderliggende basis is waar een chatbot (zoals Loki) haar antwoorden op baseert. Door het gebruik van een Knowledge Graph kunnen we geïsoleerde databronnen met elkaar verbinden, wat onze diensten nuttiger maakt voor onze gebruikers.\n<br/><br/>\nDaarnaast onderzoeken we bij het Kadaster hoe we private data kunnen ontsluiten binnen een publieke Knowledge Graph, door middel van authorisaties. Dit stelt organisaties in staat om op een open en makkelijke manier ook gesloten data te kunnen delen. Meer informatie over dit onderzoek staat op de <a href=\"https://labs.kadaster.nl/cases/lockunlock\" target=\"_blank\">Lock - Unlock informatiepagina<a/>."
+        "description": "Een Knowledge Graph is een representatie van kennis over een bepaald domein die op een gestructureerde manier is vastgelegd. De knowledge graph is opgebouwd uit informatie afgeleid uit verschillende bronnen. Dit kunnen Kadasterbronnen, maar juist ook andere (open) data bronnen zijn. Voor een gebruiker is de knowledge graph toegankelijk als één geheel, en via verschillende manieren toegankelijk. Zo is de representatie vindbaar in de standaard zoekmachines (bijv. Google) en bevraagbaar middels query API’s zoals GraphQL en SPARQL. Een knowledge graph is gebaseerd op de concepten van Linked Data; zoals het gebruik van semantische modellering op basis van standaarden SKOS en OWL, maar ook het toekennen en linken via unieke identifiers (de URIs). Door deze open standaarden te combineren met de domein- en semantische kennis van de data eigenaren wordt (geo-)data voor iedereen begrijpelijk en toegankelijk.\n<br/><br/>\nVoor Kadaster biedt de Knowledge Graph mogelijkheden om meerdere (Kadaster) datasets integraal bevraagbaar te maken, alsmede data van collega-overheden en marktpartijen, zie <a href=\"https://labs.kadaster.nl/thema/Knowledge_graph\" target=\"_blank\">Thema Knowledge Graph</a>. Ook kan de knowledge graph gebruikt worden als ondergrond voor een self-service analyse platform op het Web. Tenslotte hebben we aangetoond dat een Knowledge Graph de onderliggende basis is waar een chatbot (zoals Loki) haar antwoorden op baseert. Door het gebruik van een Knowledge Graph kunnen we geïsoleerde databronnen met elkaar verbinden, wat onze diensten nuttiger maakt voor onze gebruikers.\n<br/><br/>\nDaarnaast onderzoeken we bij het Kadaster hoe we gesloten data kunnen ontsluiten binnen een publieke Knowledge Graph, door middel van authorisaties. Meer informatie over dit onderzoek staat op de <a href=\"https://labs.kadaster.nl/cases/lockunlock\" target=\"_blank\">Lock - Unlock informatiepagina<a/>."
     },
     {
         "name": "Web3",
@@ -99,10 +99,10 @@
     },
     {
         "name": "Dataspace",
-        "ring": "Assess",
+        "ring": "Explore",
         "quadrant": "Federatieve Datadeling",
         "isNew": "TRUE",
-        "description": "Waar kluizen, sluizen en wallets zich richten op individuen, richten dataspaces zich op organisaties en industrieën. Een dataspace heeft als doel het stimuleren van datadeling en samenwerking terwijl organisaties controle houden over hun data. Klinkt als een fancy omschrijving voor afsprakenstelsel. Dataspaces worden genoemd in de Europese Data Governance Act. In 2023 heeft het Kadaster een onderzoek uitgevoerd naar dataspaces en kwamen zij tot de conclusie dat er geen eenduidige definitie bestaat maar wel terugkerende kenmerken zoals interoperabiliteit, spelregels voor gebruik en data bij de bron. Het Kadaster levert anno 2024 een bijdrage aan het ontwikkelen van het Federatief Datastels, een iniatief onder de vlag van de Interbestuurlijke Datastrategie van BZK."
+        "description": "Waar kluizen, sluizen en wallets zich richten op individuen, richten dataspaces zich op organisaties en industrieën. Een dataspace heeft als doel het stimuleren van datadeling en samenwerking terwijl organisaties controle houden over hun data. Klinkt als een fancy omschrijving voor afsprakenstelsel. Dataspaces worden genoemd in de Europese Data Governance Act.<br/><br/>In 2023 heeft het Kadaster een onderzoek uitgevoerd naar dataspaces en kwamen zij tot de conclusie dat er geen eenduidige definitie bestaat maar wel terugkerende kenmerken zoals interoperabiliteit, spelregels voor gebruik en data bij de bron. Het Kadaster levert anno 2024 een bijdrage aan het ontwikkelen van het Federatief Datastels, een initiatief onder de vlag van de Interbestuurlijke Datastrategie van BZK. We volgen de ontwikkelingen in de markt en zijn actief betrokken bij onderzoeken van universiteiten."
     },
     {
         "name": "Metaverse",
@@ -114,7 +114,7 @@
     {
         "name": "Extended Reality",
         "ring": "Assess",
-        "quadrant": "Federatieve Datadeling",
+        "quadrant": "Moderne IT",
         "isNew": "FALSE",
         "description": "Extended reality is de overkoepelende term voor Virtual Reality (VR), Mixed Reality (MR), Augmented Reality (AR) en andere immersieve technologieën die de fysieke en digitale wereld verbinden. Hierbij gaat het vooral om de visualisatie zelf en heeft de techniek daarom ook raakvlakken met andere techs zoals digital twin. Het Kadaster onderzoekt waar VR en AR van toepassing kunnen zijn. Er zijn experimenten uitgevoerd met AR voor grensreconstructie en momenteel wordt er gewerkt aan een <a href=\"https://labs.kadaster.nl/cases/ar-applicatie\" target=\"_blank\"> AR en VR applicatie op basis van de Kadaster Knowledge Graph </a>. "
     },
@@ -212,7 +212,7 @@
     {
         "name": "Digital Twin",
         "ring": "Explore",
-        "quadrant": "Moderne IT",
+        "quadrant": "Federatieve Datadeling",
         "isNew": "FALSE",
         "description": "De digitale revolutie heeft momenteel de wereld in beweging gebracht en de versmelting van de fysieke en digitale wereld is zichtbaar in het opkomen van digital twins. Een digital twin is een digitale weergave van een fysiek object. Het Kadaster beschouwt een digital twin van de gebouwde omgeving als het meest relevant. Dit is een dynamische digitale representatie van de fysieke wereld die gebruikersvriendelijke visualisaties van zowel de boven- als ondergrond biedt en in staat is om de fysieke wereld beter te laten functioneren door bijvoorbeeld te simuleren, monitoren en voorspellen.<br/><br/>Het Kadaster speelt een belangrijke rol bij het ontwikkelen van digital twins door het bieden van data en technische bouwblokken voor de creatie van deze twins. Het Kadaster's rol als facilitator maakt het mogelijk voor andere partijen om digital twins te creëren en daarmee bij te dragen aan een betere fysieke wereld. Dit zien we bijvoorbeeld terug in het ontwikkelen van geluidsmodellen, voor het voorspellen en beperken van geluidsoverlast. Op basis van Kadasterdata kan één gezamelijk 3D-model gebruikt worden, waardoor verschillende partijen dezelfde digitale weergave als uitgangspunt kunnen nemen. Vanuit Werk aan Uitvoering (WaU) bouwt het Kadaster een 3D Basismodel Fysieke Leefomgeving"
     },
