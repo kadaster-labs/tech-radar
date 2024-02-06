@@ -175,6 +175,13 @@
         "description": "Natural Language Processing, aangeduid met NLP, is een onderdeel van Artificial Intelligence en wordt gebruikt voor allerlei toepassingen rondom natuurlijke taal. Hieronder vallen onder andere spellingcontrole, chatbots en suggesties in applicaties (bijv. Gmail). Met de komst van het Transformer model zijn taalmodellen snel beter geworden en voor meer toepassingen inzetbaar.\n<br/><br/>\nBinnen het Kadaster wordt ook al gebruik gemaakt van NLP. Zo wordt de akteverwerking ondersteund door NLP, zodat (een deel van) de informatie automatisch uit de aktes gehaald kan worden. Meer informatie over deze toepassing is te vinden in <a href=\"https://algoritme.overheid.nl/algoritme/akte-ai-kadaster/\" target=\"_blank\">het algoritmeregister</a>. Daarnaast ontwikkelen we een applicatie waarmee Kadasterdata middels natuurlijke taal bevraagd kan worden."
     },
     {
+        "name": "Neuro-symbolic AI",
+        "ring": "Monitor",
+        "quadrant": "AI en Datascience",
+        "isNew": "TRUE",
+        "description": "Neurale netwerken hebben als probleem black box modellen te zijn. De uitkomsten zijn niet uitlegbaar en herleidbaar. Dit is een probleem wanneer dat wel vereisten zijn in een AI-systeem. Een mogelijke oplossing is om het te combineren met symbolische logica, waarmee altijd terug geredeneerd kan worden hoe het antwoord tot stand is gekomen.\n<br/><br/>\nNeuro-symbolic AI is daardoor is een vorm van Responsible AI die we met aandacht volgen. We zien hiervoor toepassingen voor in o.a. de GeoAI, waar een neuraal netwerk objecten kan vinden op lokaal niveau en het symbolische model daarover analyses kan doen."
+    },
+    {
         "name": "Open Source Software",
         "ring": "Adopt",
         "quadrant": "Moderne IT",
@@ -201,6 +208,13 @@
         "quadrant": "Privacy- bescherming",
         "isNew": "FALSE",
         "description": "Dit is een verzamelnaam voor technieken die gebruikt kunnen worden om persoonsgegevens beter te beschermen. Het doel is om de privacy zo veel mogelijk te waarborgen zonder de functionaliteit van systemen te verliezen. Voorbeelden van privacy enhancing technologies zijn Multi-Party Computation (MPC), Federated learning, Differential Privacy maar ook data anonimisering en pseudonimisering.\n<br/><br/>\nHet ETC heeft in 2021 de mogelijkheden van MPC onderzocht d.m.v. deelname aan een MPC pilot met o.a. KvK & TNO. Team Onderzoek start in 2024 een verkenning naar synthetische data. Dit is een fictief gegenereerde dataset, met behoud van de relaties en patronen uit de originele dataset maar niet herleidbaar naar (individuele) personen uit die originele dataset.\n<br/><br/>\nVanuit de overheid wordt er ook belangrijk onderzoek gedaan naar privacy-enhancing technologies in het <a href=\"https://www.digitaleoverheid.nl/nieuws/nicpet-bevordert-veilige-en-ethische-data-uitwisseling-met-pet/\"  target=\"_blank\">Nicpet innovatiecentrum</a> waarin verschillende overheidspartijen samenwerken aan dit onderwerp."
+    },
+    {
+        "name": "RAG",
+        "ring": "Explore",
+        "quadrant": "AI en Datascience",
+        "isNew": "TRUE",
+        "description": "Retrieval-based generation (RAG) is één van de technieken die gebruikt wordt bij Large Language Models (LLMs) om onjuistheden te verminderen. Bij een standaard LLM wordt alle tekst in het model zelf opgeslagen, zonder dat er een manier is om te achterhalen waar de informatie vandaan komt. In een RAG systeem worden brondocumenten apart opgeslagen waarna ze semantisch doorzocht kunnen worden. Zodoende wordt het antwoord uit bijvoorbeeld een chatbot altijd gebaseerd op feitelijke en herleidbare informatie.\n<br/><br/>\nBinnen chatbot Loki maken we ook gebruik van de RAG techniek. Door het toevoegen van o.a. de gegevenscatalogi is de chatbot in staat vragen te stellen over verschillende definities die binnen het Kadaster gehanteerd worden."
     },
     {
         "name": "Responsible AI",
