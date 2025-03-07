@@ -2,7 +2,7 @@ name: Deploy static content to Pages
 
 on:
   push:
-    branches: ["master"]
+    branches: ['master']
 
   workflow_dispatch:
 
@@ -12,7 +12,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: 'pages'
   cancel-in-progress: false
 
 jobs:
@@ -35,7 +35,7 @@ jobs:
         run: npm run build:prod
         env:
           RINGS: '["Adopt", "Explore", "Assess", "Monitor"]'
-          QUADRANTS: '["Moderne IT", "Federatieve Datadeling", "AI en Datascience", "Privacy- bescherming"]'
+          QUADRANTS: '["Moderne IT", "Omgang met data", "AI en Datascience", "Tools en platforms"]'
           ASSET_PATH: '/tech-radar/'
 
       - name: Upload artifact

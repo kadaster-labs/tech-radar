@@ -48,8 +48,8 @@ An example of a data file:
 We currently make use of the following quadrants. Please note this is subject to change:
 - AI en Datascience
 - Moderne IT
-- Privacy- bescherming
-- Federatieve Datadeling
+- Omgang met data
+- Tools en platforms
 
 > [!WARNING]
 > Please note the dash in "Privacy- bescherming". While a bit unfortunate, it is required for the rendering of the radar, as it will otherwise wrap the word at strange places. This means that the dash should also be included in the Excel file. Otherwise, no blips will show up! This should be improved, either by decreasing font size, or perhaps hardcoding where to split the word.
