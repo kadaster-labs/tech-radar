@@ -7,9 +7,18 @@
  * The objects keys are the column names, and the values are the cell values.
  */
 function main(workbook: ExcelScript.Workbook): TableData[] {
-  // Get the first table in the "PlainTable" worksheet.
-  // If you know the table name, use `workbook.getTable('TableName')` instead.
-  const table = workbook.getTable('Content');
+  // Get the active worksheet
+  const activeSheet = workbook.getActiveWorksheet();
+
+  // Get the first table in the active worksheet
+  const tables = activeSheet.getTables();
+  if (tables.length === 0) {
+    console.log("No tables found in the active worksheet");
+    return [];
+  }
+
+  const table = tables[0];
+  console.log(`Using table: ${table.getName()} from sheet: ${activeSheet.getName()}`);
 
   // Get all the values from the table as text.
   const texts = table.getRange().getTexts();
@@ -18,9 +27,20 @@ function main(workbook: ExcelScript.Workbook): TableData[] {
   let returnObjects: TableData[] = [];
   if (table.getRowCount() > 0) {
     returnObjects = returnObjectFromValues(texts);
-  }
 
-  sortArray(returnObjects);
+    // Sort by ring first, then by name
+    returnObjects.sort((a, b) => {
+      // First compare rings
+      const ringComparison = a.ring.localeCompare(b.ring);
+
+      // If rings are the same, compare names
+      if (ringComparison === 0) {
+        return a.name.localeCompare(b.name);
+      }
+
+      return ringComparison;
+    });
+  }
 
   // Log the information and return it for a Power Automate flow.
   console.log(JSON.stringify(returnObjects));
@@ -30,17 +50,22 @@ function main(workbook: ExcelScript.Workbook): TableData[] {
 // This function converts a 2D array of values into a generic JSON object.
 // In this case, we have defined the TableData object, but any similar interface would work.
 function returnObjectFromValues(values: string[][]): TableData[] {
-  let NUM_COLUMNS = 5; // name	ring	quadrant	isNew	description
   let objectArray: TableData[] = [];
   let objectKeys: string[] = [];
+
+  // Get column headers from the first row
+  if (values.length > 0) {
+    objectKeys = values[0];
+  }
+
   for (let i = 0; i < values.length; i++) {
     if (i === 0) {
-      objectKeys = values[i];
+      // Skip header row
       continue;
     }
 
     let object = {};
-    for (let j = 0; j < NUM_COLUMNS; j++) {
+    for (let j = 0; j < objectKeys.length; j++) {
       object[objectKeys[j]] = values[i][j];
     }
 
@@ -48,38 +73,6 @@ function returnObjectFromValues(values: string[][]): TableData[] {
   }
 
   return objectArray;
-}
-
-// Sort alphabetically by 'ring','name'. This has two reasons
-// 1. techradar adds 'ring's in expanded view by alphabetically adding 'name's. Therefore, for each quadrant the order of rings might differ, which is undesirable
-// 2. by keeping a consistent ordering, we'll have a consistent list in Git, which keeps diffs small. Even when the table in Excel is sorted in some arbitrary way
-function sortArray(returnObjects: TableData[]) {
-  const ringPriority = {
-    "Adopt": 1,
-    "Explore": 2,
-    "Assess": 3,
-    "Monitor": 4
-  };
-
-  returnObjects.sort((a: TableData, b: TableData) => {
-    const nameA = a.name.toUpperCase();
-    const nameB = b.name.toUpperCase();
-
-    const ringA = a.ring;
-    const ringB = b.ring;
-
-    if (ringPriority[ringA] < ringPriority[ringB]) {
-      return -1;
-    } else if (ringPriority[ringA] > ringPriority[ringB]) {
-      return 1;
-    } else if (nameA > nameB) {
-      return 1;
-    } else if (nameA < nameB) {
-      return -1;
-    } else {
-      return 0;
-    }
-  })
 }
 
 interface TableData {
