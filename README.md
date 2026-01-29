@@ -18,28 +18,28 @@ An example of a data file:
     "name": "Computer Vision",
     "ring": "Explore",
     "quadrant": "AI en Datascience",
-    "isNew": "FALSE",
+    "status": "New",
     "description": "Computer vision is een veld binnen AI ..."
   },
   {
     "name": "Generative AI",
     "ring": "Assess",
     "quadrant": "AI en Datascience",
-    "isNew": "TRUE",
+    "status": "Moved In",
     "description": "Generatieve AI gaat over het genereren van ..."
   },
   {
     "name": "Event Stream Processing",
-    "ring": "assess",
+    "ring": "Assess",
     "quadrant": "Moderne IT",
-    "isNew": "FALSE",
+    "status": "No Change",
     "description": "Data is steeds minder statisch en steeds meer ..."
   },
   {
     "name": "Self-Sovereign Identity",
     "ring": "Monitor",
-    "quadrant": "Privacy- bescherming",
-    "isNew": "FALSE",
+    "quadrant": "Omgang met data",
+    "status": "Moved Out",
     "description": "Self-sovereign identity (SSI) is een concept ..."
   }
 ]
@@ -51,8 +51,16 @@ We currently make use of the following quadrants. Please note this is subject to
 - Omgang met data
 - Tools en platforms
 
-> [!WARNING]
-> Please note the dash in "Privacy- bescherming". While a bit unfortunate, it is required for the rendering of the radar, as it will otherwise wrap the word at strange places. This means that the dash should also be included in the Excel file. Otherwise, no blips will show up! This should be improved, either by decreasing font size, or perhaps hardcoding where to split the word.
+### Blip movement information
+
+If you want to show movement of blips, add the optional column `status` to your dataset.
+
+This column accepts the following case-insensitive values :
+
+- `New` - appearing on the radar for the first time
+- `Moved In` - moving towards the center of the radar
+- `Moved Out` - moving towards the edge of the radar
+- `No Change` - no change in position
 
 
 ### Excel to JSON
