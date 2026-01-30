@@ -79,6 +79,8 @@ interface TableData {
   name: string;
   ring: string;
   quadrant: string;
-  isNew: string;
+  isNew?: string;
+  status?: string;
   description: string;
+  "Laatst bijgewerkt": string;
 }
