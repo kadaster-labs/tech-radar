@@ -403,7 +403,7 @@ function renderRadarLegends(radarElement, hasMovements) {
 
   const movedImage = legendsContainer
     .append('img')
-    .attr('src', '/images/moved.svg')
+    .attr('src', 'images/moved.svg')
     .attr('width', '37px')
     .attr('height', '37px')
     .attr('alt', `moved in or out blip legend icon`)
@@ -419,7 +419,7 @@ function renderRadarLegends(radarElement, hasMovements) {
 
   const noChangeImage = legendsContainer
     .append('img')
-    .attr('src', '/images/no-change.svg')
+    .attr('src', 'images/no-change.svg')
     .attr('width', '37px')
     .attr('height', '37px')
     .attr('alt', 'no change blip legend icon')
