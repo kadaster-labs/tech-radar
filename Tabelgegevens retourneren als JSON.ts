@@ -7,10 +7,8 @@
  * The objects keys are the column names, and the values are the cell values.
  */
 function main(workbook: ExcelScript.Workbook): TableData[] {
-  // Get the active worksheet
   const activeSheet = workbook.getActiveWorksheet();
 
-  // Get the first table in the active worksheet
   const tables = activeSheet.getTables();
   if (tables.length === 0) {
     console.log("No tables found in the active worksheet");
@@ -20,56 +18,87 @@ function main(workbook: ExcelScript.Workbook): TableData[] {
   const table = tables[0];
   console.log(`Using table: ${table.getName()} from sheet: ${activeSheet.getName()}`);
 
-  // Get all the values from the table as text.
   const texts = table.getRange().getTexts();
+  const values = table.getRange().getValues();
 
-  // Create an array of JSON objects that match the row structure.
   let returnObjects: TableData[] = [];
   if (table.getRowCount() > 0) {
-    returnObjects = returnObjectFromValues(texts);
+    returnObjects = returnObjectFromValues(texts, values);
 
-    // Sort by ring first, then by name
     returnObjects.sort((a, b) => {
-      // First compare rings
       const ringComparison = a.ring.localeCompare(b.ring);
-
-      // If rings are the same, compare names
       if (ringComparison === 0) {
         return a.name.localeCompare(b.name);
       }
-
       return ringComparison;
     });
   }
 
-  // Log the information and return it for a Power Automate flow.
   console.log(JSON.stringify(returnObjects));
   return returnObjects;
 }
 
-// This function converts a 2D array of values into a generic JSON object.
-// In this case, we have defined the TableData object, but any similar interface would work.
-function returnObjectFromValues(values: string[][]): TableData[] {
+function excelSerialToDate(serial: number): string {
+  // Excel's epoch starts on 1900-01-01, but it incorrectly treats 1900 as a leap year,
+  // so serial 1 = 1900-01-01 and we subtract 1 to correct for that bug.
+  const excelEpoch = new Date(1899, 11, 30); // 1899-12-30
+  const date = new Date(excelEpoch.getTime() + serial * 86400000);
+  return `${date.getDate()}-${date.getMonth() + 1}-${date.getFullYear()}`;
+}
+
+function parseTextDate(text: string): string {
+  // Handle formats like "04-03-26", "2026-03-02", "2-3-2026", etc.
+  const parts = text.split(/[-\/]/);
+  if (parts.length !== 3) return text; // Can't parse, return as-is
+
+  let day: number, month: number, year: number;
+
+  if (parts[0].length === 4) {
+    // YYYY-MM-DD
+    [year, month, day] = parts.map(Number);
+  } else if (parts[2].length === 4) {
+    // D-M-YYYY or M-D-YYYY — assuming D-M-YYYY given Dutch locale
+    [day, month, year] = parts.map(Number);
+  } else {
+    // Two-digit year, e.g. "04-03-26" → assume D-M-YY
+    [day, month, year] = parts.map(Number);
+    year += year < 100 ? 2000 : 0;
+  }
+
+  if (!day || !month || !year) return text;
+  return `${day}-${month}-${year}`;
+}
+
+function returnObjectFromValues(texts: string[][], values: (string | number | boolean)[][]): TableData[] {
   let objectArray: TableData[] = [];
   let objectKeys: string[] = [];
 
-  // Get column headers from the first row
-  if (values.length > 0) {
-    objectKeys = values[0];
+  if (texts.length > 0) {
+    objectKeys = texts[0];
   }
 
-  for (let i = 0; i < values.length; i++) {
-    if (i === 0) {
-      // Skip header row
-      continue;
-    }
+  const dateColumnKey = "Laatst bijgewerkt";
+  const dateColumnIndex = objectKeys.indexOf(dateColumnKey);
 
-    let object = {};
+  for (let i = 1; i < texts.length; i++) {
+    let object: { [key: string]: string } = {};
+
     for (let j = 0; j < objectKeys.length; j++) {
-      object[objectKeys[j]] = values[i][j];
+      if (j === dateColumnIndex) {
+        const raw = values[i][j];
+        if (typeof raw === "number") {
+          // Real date cell — convert from Excel serial
+          object[objectKeys[j]] = excelSerialToDate(raw);
+        } else {
+          // Text cell — normalize to D-M-YYYY
+          object[objectKeys[j]] = parseTextDate(texts[i][j]);
+        }
+      } else {
+        object[objectKeys[j]] = texts[i][j];
+      }
     }
 
-    objectArray.push(object as TableData);
+    objectArray.push(object as unknown as TableData);
   }
 
   return objectArray;
