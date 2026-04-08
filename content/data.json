@@ -4,32 +4,32 @@
     "ring": "Adopt",
     "quadrant": "Moderne IT",
     "status": "No Change",
-    "description": "Cloud Computing is een brede term die verwijst naar de ontwikkeling in virtualisatietechnologieën. Deze ontwikkeling omvat de transitie van fysieke hardware naar virtuele machines (VM's), en verder naar containers en serverless architecturen. Binnen dit spectrum van technologieën is 'containerization' momenteel vrij gangbaar en mainstream geworden in hedendaagse softwaresystemen. Dit houdt in dat zowel ontwikkeltools als veel productiesystemen zijn opgesplitst in of gebruikmaken van containers. Ook het Kadaster heeft grote stappen gemaakt in de overstap naar containers en Kubernetes, een systeem voor containerorkestratie.\n<br/><br/>\nEen essentieel aspect van het ontwikkelen en beheren van ons containerplatform is de implementatie van GitOps, een methode die het gebruik van Git voor operationele en ontwikkelprocessen benadrukt. Zie hiervoor ook \"GitOps\".\n<br/><br/>\nWaar mogelijk integreren we de public cloud in onze infrastructuur. Dit geeft ons de flexibiliteit om dynamisch om te gaan met onze hardwarebehoeften en stelt ons in staat om onze resources gemakkelijk op- en af te schalen. Desondanks blijven we ook gebruikmaken van onze private cloud, voornamelijk voor de verwerking van data die gevoelig is voor privacykwesties.",
-    "Laatst bijgewerkt": "29-1-2024"
+    "description": "Cloud Computing is een brede term die verwijst naar de ontwikkeling in virtualisatietechnologieën. Deze ontwikkeling omvat de transitie van fysieke hardware naar virtuele machines (VM's), en verder naar containers en serverless architecturen. Binnen dit spectrum van technologieën is ‘containerization’ momenteel gangbaar en mainstream geworden in hedendaagse softwaresystemen. Dit houdt in dat zowel ontwikkeltools als veel productiesystemen zijn opgesplitst in of gebruikmaken van containers. Ook het Kadaster heeft grote stappen gezet in de overstap naar containers en Kubernetes, een systeem voor containerorkestratie.\n<br/><br/>\nMet de opkomst van AI-toepassingen is daarnaast het belang van gespecialiseerde hardware, zoals GPU’s (Graphics Processing Units), sterk toegenomen. GPU’s zijn bijzonder geschikt voor het trainen en uitvoeren van AI-modellen vanwege hun vermogen om grote hoeveelheden berekeningen parallel uit te voeren. Waar traditionele CPU’s volstonden voor veel applicaties, vragen moderne AI-modellen – en met name deep learning-toepassingen – om aanzienlijk meer rekenkracht. Dit heeft invloed op de inrichting van zowel cloud- als on-premise infrastructuur en speelt een belangrijke rol in strategische keuzes rondom schaalbaarheid, kosten en digitale autonomie.\n<br/><br/>\nEen essentieel aspect van het ontwikkelen en beheren van ons containerplatform is de implementatie van GitOps, een methode die het gebruik van Git voor operationele en ontwikkelprocessen benadrukt. Zie hiervoor ook “GitOps”.\n<br/><br/>\nLang was het integreren van de public cloud in onze infrastructuur het uitgangspunt. Van de private cloud werd alleen gebruik gemaakt als het noodzakelijk was, voornamelijk voor de verwerking van data die gevoelig is voor privacykwesties. Momenteel is er een verschuiving gaande naar digitale autonomie als uitgangspunt. Hierbij is het doel om zo onafhankelijk mogelijk van cloudproviders te kunnen werken, met name onafhankelijk van Big Tech. Dit betekent niet dat er per direct geen gebruik meer gemaakt mag worden van niet-Europese cloudproviders, maar dat wij toewerken naar het eenvoudig kunnen wisselen van cloudomgeving. Tevens zullen wij bij nieuwe aanbestedingen kiezen voor Europese oplossingen. ",
+    "Laatst bijgewerkt": "3-2-2026"
   },
   {
     "name": "Computer Vision",
     "ring": "Adopt",
     "quadrant": "AI en Datascience",
     "status": "No Change",
-    "description": "Computer vision is een veld binnen AI waarbij systemen zelf beeldmateriaal kunnen begrijpen. Computer vision wordt binnen het Kadaster met name toegepast door het Geo Expertise Center, waarbij zij beeldherkenning gebruiken om op basis van luchtfoto’s onder andere <a href=\"https://www.kadaster.nl/zakelijk/energietransitie/inzicht-in-zonpotentie-daken\" target=\"_blank\">inzicht in de zonnepotentie op daken</a> te verkrijgen. Een andere toepassing van beeldherkenning is het krijgen van meer inzicht in vakantieparken, door het detecteren van vakantiehuisjes. Ook wordt computer vision toegepast bij <a href=\"https://www.kadaster.nl/over-ons/beleid/algoritmeregister/kadastrale-kaart-next\" target=\"_blank\">Kadastrale Kaart Next</a>. Hierbij interpreteert het algoritme de meetschets van de landmeter en haalt daar de meetgegevens uit.\n<br/><br/>\nOptical character recoginition (OCR) valt ook onder computer vision en betreft specifiek het interpreteren van tekst in afbeeldingen. Dit is zeer relevant voor het Kadaster, omdat oude aktes alleen beschikbaar zijn als afbeelding en niet als machine-leesbare tekst. Momenteel kijken we binnen <a href=\"https://labs.kadaster.nl/dataanalyse/akteocr/akte_ocr/\" target=\"_blank\">Akte-OCR</a> of we de ruilverkavelingsaktes machine-leesbaar kunnen maken en worden er plannen gemaakt om dit toe te passen op het akte-archief, wat het mogelijk zal maken om alle aktes vanaf 1950 te doorzoeken. Ook met de akte van vóór 1950 zijn we bezig om te zetten behulp van OCR, dat doen we in het <a href=\"https://labs.kadaster.nl/innovatie/haai/handgeschreven_aktes_ai/\" target=\"_blank\">Handgeschreven Aktes AI</a> onderzoek.\n<br/><br/>\nDaarnaast gebruiken we computer vision voor het detecteren van legitimatiebewijzen in geuploade bestanden. Deze documenten mogen we niet opslaan vanwege de AVG privacy-wetgeving. Gezien we een grote hoeveel PDFs aangeleverd krijgen is het onmogelijk al deze documenten handmatig te controleren op ingescande legitimatiebewijzen. Hiertoe hebben we een eigen AI-model ontwikkeld.",
-    "Laatst bijgewerkt": "7-3-2025"
-  },
-  {
-    "name": "Deep Learning",
-    "ring": "Adopt",
-    "quadrant": "AI en Datascience",
-    "status": "No Change",
-    "description": "Deep learning (DL) modellen zijn een subset van ML modellen. Deze modellen zijn gebaseerd op neurale netwerken. DL modellen zijn krachtiger dan ML modellen omdat ze zelf leren hoe ze de data moeten interpreteren en welke interpretaties van de data er nu het belangrijkst zijn bij het maken van een beslissing. Per use case is het belangrijk om te bedenken of een DL model nodig is of dat een ML model bijv. voldoende is, omdat het trainen van DL modellen veel rekenkracht, geheugen en data vergt.\n<br/><br/>\nBinnen het Kadaster worden DL modellen met name ingezet voor computer vision. Bij het ontwikkeling van Kadastrale Kaart Next (KKN) wordt AI ingezet voor het interpreteren van handschrift en tekeningen. Om de kwaliteit hiervan te controleren vind een intensief handmatig proces plaats. Daaruit blijkt dat de resultaten zeer goed zijn. Meer info over KKN algoritmes staat in het <a href=\"https://algoritme.overheid.nl/algoritme/kadastrale-kaart-next-kadaster\" target=\"_blank\">algoritmeregister</a>. Het programma is in overgangsfase van de status ‘in ontwikkeling’ naar ‘productie’. Daarnaast lopen nog diverse andere onderzoeken waarbij DL wordt ingezet. Voorbeelden hiervan zijn het detecteren van zonnepanelen en BRT-objecten op luchtfoto’s.",
-    "Laatst bijgewerkt": "13-2-2023"
+    "description": "Computer vision is een veld binnen AI waarbij systemen zelfstandig beeldmateriaal kunnen analyseren en interpreteren. Binnen het Kadaster wordt computer vision vooral toegepast door het Geo Expertise Center. Zij gebruiken beeldherkenning om op basis van luchtfoto’s onder andere <a href=\"https://www.kadaster.nl/zakelijk/energietransitie/inzicht-in-zonpotentie-daken\" target=\"_blank\">inzicht in de zonnepotentie op daken</a> te verkrijgen. Een andere toepassing is het verkrijgen van meer inzicht in de gebouwde omgeving, bijvoorbeeld door het detecteren van ingangen van ondergrondse parkeergarages. \n<br/><br/>\nNieuwe ontwikkelingen zoals agentic AI in combinatie met object detection, small object detection en multimodal detection maken het mogelijk om complexere taken uit te voeren. Bij agentic AI in combinatie met object detection kunnen modellen niet alleen objecten herkennen, maar ook zelfstandig vervolgacties bepalen. Small object detection richt zich op het beter detecteren van zeer kleine objecten, bijvoorbeeld in lucht- of satellietbeelden. Multimodal detection combineert visuele input met tekstuele context, wat helpt om objecten nauwkeuriger te herkennen en te interpreteren. Deze technieken zijn interessant om verder te verkennen voor toekomstige toepassingen.\n<br/><br/>\nOptical Character Recognition (OCR) valt eveneens onder computer vision en richt zich op het omzetten van tekst in afbeeldingen naar machine-leesbare tekst. Binnen het <a href=\"https://labs.kadaster.nl/innovatie/haai/handgeschreven_aktes_ai/\" target=\"_blank\">Handgeschreven Aktes AI</a> onderzoek werken we aan het automatisch leesbaar maken van handgeschreven aktes, met als doel alle aktes vanaf 1838 digitaal doorzoekbaar te maken.",
+    "Laatst bijgewerkt": "27-2-2026"
   },
   {
     "name": "Event Stream Processing",
     "ring": "Adopt",
     "quadrant": "Moderne IT",
     "status": "No Change",
-    "description": "Data is steeds minder statisch en steeds meer in beweging. Er is steeds meer data en het wordt steeds relevanter wat de kwaliteit en de actualiteit van data is. Data wordt dan steeds meer beschouwd als een stroom van events. Dit is geen nieuw concept en technologieën om event streams te processen zijn behoorlijk volwassen. In de tijd van cloud computing en eventually consistency is event stream processing een essentieel onderdeel. \n<br/><br/>\nHet Kadaster ontwerpt steeds meer haar systemen met events als de kern van de data(veranderingen). Daarmee ontstaan patronen en architecturen die zich lenen voor event stream processing of geliëerde technieken, zoals event-sourcing. Voorbeelden waar dit toegepast wordt bij Kadaster, zijn KOERS, Geodataplein, BeterKenbaar, Terristische Registratie. Tegelijk is Event Stream Processing nog geen algemeen gedeelde visie op hoe het Kadaster (en daar buiten) data en data stromen modelleren en onderzoeken we hoe we dit meer kunnen toepassen en laten groeien.",
-    "Laatst bijgewerkt": "14-2-2023"
+    "description": "Data is steeds minder statisch en steeds meer in beweging. Er is steeds meer data en het wordt steeds relevanter wat de kwaliteit en de actualiteit van data is. Data wordt dan steeds meer beschouwd als een stroom van events. Dit is geen nieuw concept en technologieën om event streams te processen zijn behoorlijk volwassen. In de tijd van cloud computing en eventually consistency is event stream processing een essentieel onderdeel. \n<br/><br/>\nHet Kadaster ontwerpt steeds meer haar systemen met events als de kern van de data(veranderingen). Daarmee ontstaan patronen en architecturen die zich lenen voor event stream processing of geliëerde technieken, zoals event-sourcing. Voorbeelden waar dit toegepast wordt bij Kadaster, zijn KOERS, BeterKenbaar, Terristische Registratie. Tegelijk is Event Stream Processing nog geen algemeen gedeelde visie op hoe het Kadaster (en daar buiten) data en data stromen modelleren en onderzoeken we hoe we dit meer kunnen toepassen en laten groeien.",
+    "Laatst bijgewerkt": "2-3-2026"
+  },
+  {
+    "name": "FinOps",
+    "ring": "Adopt",
+    "quadrant": "Moderne IT",
+    "status": "New",
+    "description": "FinOps heeft als doel om cloudresources zo efficiënt mogelijk te gebruiken door kostenbeheer te operationaliseren. Het gebruik en de kosten van datacenters, zowel private als public cloud, worden gemonitord en geanalyseerd. Zo ontstaat inzicht in welk team of welke applicatie welk aandeel in het verbruik heeft en kunnen gerichte optimalisaties en kostenbesparingen worden doorgevoerd.\n<br/><br/>\nGreenOps kijkt naar hetzelfde vraagstuk, maar vanuit duurzaamheidsperspectief. Hierbij staat het verminderen van energieverbruik en CO₂-uitstoot van de IT-infrastructuur centraal. FinOps en GreenOps overlappen daarmee sterk: beide sturen op efficiënt gebruik van resources, alleen met een andere primaire invalshoek – financieel versus ecologisch. Efficiënter gebruik leidt immers zowel tot lagere kosten als tot een kleinere ecologische voetafdruk. De European Energy Efficiency Directive verplicht grote organisaties, waaronder het Kadaster, bovendien om te rapporteren over hun CO₂-uitstoot, wat het belang van GreenOps onderstreept.",
+    "Laatst bijgewerkt": "2-3-2026"
   },
   {
     "name": "GitOps",
@@ -43,7 +43,7 @@
     "name": "Golang",
     "ring": "Adopt",
     "quadrant": "Tools en platforms",
-    "status": "New",
+    "status": "No Change",
     "description": "De programmeertaal Go is een uitstekende keuze voor cloud processen. Met onze moderne IT wordt er dan ook genoeg Go gebruikt in het aansturen van onze cloud infrastructuur.",
     "Laatst bijgewerkt": "7-3-2025"
   },
@@ -51,7 +51,7 @@
     "name": "Java",
     "ring": "Adopt",
     "quadrant": "Tools en platforms",
-    "status": "New",
+    "status": "No Change",
     "description": "Java is niet weg te denken in onze volwassen IT applicatielandschap en wordt het meest gebruikt als backend programmeertaal. Het is een volwassen taal waarmee een hoop werk verzet kan worden. Het is uiteraard van belang met de laatste versies bij te blijven om technical debt te voorkomen. Applicaties dienen daarom bijgewerkt te worden naar de laatste LTS versie.",
     "Laatst bijgewerkt": "7-3-2025"
   },
@@ -62,6 +62,14 @@
     "status": "No Change",
     "description": "Een Knowledge Graph is een representatie van kennis over een bepaald domein die op een gestructureerde manier is vastgelegd. De knowledge graph is opgebouwd uit informatie afgeleid uit verschillende bronnen. Dit kunnen Kadasterbronnen, maar juist ook andere (open) data bronnen zijn. Voor een gebruiker is de knowledge graph toegankelijk als één geheel, en via verschillende manieren toegankelijk. Zo is de representatie vindbaar in de standaard zoekmachines (bijv. Google) en bevraagbaar middels query API’s zoals GraphQL en SPARQL. Een knowledge graph is gebaseerd op de concepten van Linked Data; zoals het gebruik van semantische modellering op basis van standaarden SKOS en OWL, maar ook het toekennen en linken via unieke identifiers (de URIs). Door deze open standaarden te combineren met de domein- en semantische kennis van de data eigenaren wordt (geo-)data voor iedereen begrijpelijk en toegankelijk.\n<br/><br/>\nVoor Kadaster biedt de Knowledge Graph mogelijkheden om meerdere (Kadaster) datasets integraal bevraagbaar te maken, alsmede data van collega-overheden en marktpartijen, zie <a href=\"https://data.kkg.kadaster.nl\" target=\"_blank\">Thema Knowledge Graph</a>. Ook kan de knowledge graph gebruikt worden als ondergrond voor een self-service analyse platform op het Web. Tenslotte hebben we aangetoond dat een Knowledge Graph de onderliggende basis is waar een chatbot (zoals Loki) haar antwoorden op baseert. Door het gebruik van een Knowledge Graph kunnen we geïsoleerde databronnen met elkaar verbinden, wat onze diensten nuttiger maakt voor onze gebruikers.\n<br/><br/>\nDaarnaast onderzoeken we bij het Kadaster hoe we gesloten data kunnen ontsluiten binnen een publieke Knowledge Graph, door middel van authorisaties. Meer informatie over dit onderzoek staat op de <a href=\"https://labs.kadaster.nl/innovatie/lockunlock/lock_unlock/\" target=\"_blank\">Lock - Unlock informatiepagina</a>.",
     "Laatst bijgewerkt": "5-2-2024"
+  },
+  {
+    "name": "Large Language Models",
+    "ring": "Adopt",
+    "quadrant": "AI en Datascience",
+    "status": "Moved In",
+    "description": "Large Language Models (LLM) zijn neurale netwerkmodellen die getraind worden op enorme hoeveelheden tekstuele data om complexe taalverwerkingstaken uit te voeren. LLM’s gebruiken transformer-architecturen om natuurlijke taal in een interne representatie te coderen, waardoor het model verbanden kan leggen tussen verschillende delen van tekst. Hierdoor kunnen ze taken uitvoeren zoals vertalen, samenvatten, vragen beantwoorden en het genereren van nieuwe tekst.\n\nBinnen het Kadaster onderzoeken we onder meer hoe LLM’s kunnen worden ingezet om informatie uit aktes te extraheren – een taak die nu grotendeels handmatig gebeurt – waarmee we de verwerking van (on)gestructureerde teksten kunnen versnellen en verbeteren. Daarnaast zetten we LLM-technologie in binnen chatbots zoals <a href=\"https://labs.kadaster.nl/innovatie/lokinexus/lokinexus/\" target=\"_blank\">Loki Nexus</a>, waar een chatinterface wordt ontwikkeld waarmee gebruikers via natuurlijke taalvragen data kunnen analyseren en bevragen. Ook wordt LLM-technologie toegepast in <a href=\"https://labs.kadaster.nl/innovatie/chatbotkaatje/kaatje\" target=\"_blank\">Kaatje</a>, een chatbot-prototype dat onderzoekt hoe taalmodellen gecombineerd kunnen worden met Kadasterdata om informatie toegankelijker te maken.\n\nDaarnaast zien we zogeheten specialized language models als een interessant domein voor verder onderzoek. Dit zijn taalmodellen die specifiek worden getraind of afgestemd op één bepaald vakgebied of taak, bijvoorbeeld juridisch taalgebruik of geo-informatie. Deze modellen zijn vaak kleiner en efficiënter dan generieke LLM’s, en kunnen binnen een afgebakend domein gerichtere en beter controleerbare resultaten opleveren.",
+    "Laatst bijgewerkt": "27-2-2026"
   },
   {
     "name": "Low/No Code",
@@ -76,22 +84,30 @@
     "ring": "Adopt",
     "quadrant": "AI en Datascience",
     "status": "No Change",
-    "description": "Machine learning (ML) is een vorm van AI waarbij algoritmes worden getraind om voorspellingen of beslissingen te nemen op basis van data. Het verschilt van andere AI-technieken, zoals expertsystemen of regelgebaseerde systemen, doordat het statistische modellen gebruikt om data te analyseren en te leren, in plaats van te vertrouwen op expliciete programmering. Deep learning (DL) is een vorm van ML die gebruik maakt van kunstmatige neurale netwerken met veel lagen om complexe data te analyseren en te leren. Het is een subveld van ML en is geschikter voor taken zoals beeld- en spraakherkenning, natuurlijke taalverwerking en autonoom rijden. Waar uitlegbaarheid van een ML belangrijk is, is DL meestal af te raden gezien dit \"black box\" modellen zijn.\n<br/><br/>\nOver het algemeen zijn al deze AI-technieken verwant en kunnen ze in combinatie met elkaar worden gebruikt. Binnen het Kadaster gebruiken we ML onder andere voor <a href=\"https://labs.kadaster.nl/studenten/appartementsrecht/locatiebepaling_appartementsrecht/\" target=\"_blank\">locatiebepaling van appartementen</a> binnen het appartementencomplex. Daarnaast gebruiken we ML om de kwaliteit van de BAG te verbeteren, door het <a href=\"https://labs.kadaster.nl/cases/bagbouwjaren\" target=\"_blank\">opsporen van onjuiste jaartallen</a> en het <a href=\"https://labs.kadaster.nl/studenten/bagvoorspellingen/bag_voorspellingen/\" target=\"_blank\">voorspellen van ontbrekende jaartallen</a>. Voor DL voorbeelden, zie Deep Learning.",
-    "Laatst bijgewerkt": "29-1-2024"
+    "description": "Machine learning (ML) is een vorm van AI waarbij algoritmes worden getraind om voorspellingen of beslissingen te nemen op basis van data. In tegenstelling tot expertsystemen of regelgebaseerde systemen, die werken met expliciet geprogrammeerde regels, maakt ML gebruik van statistische modellen die patronen in data herkennen en daarvan leren.\n<br/><br/>\nDeep learning (DL) is een subset van ML en maakt gebruik van kunstmatige neurale netwerken met veel lagen om complexe data te analyseren. Moderne DL-modellen zijn veelal gebaseerd op zogeheten transformer-architecturen, die steeds meer de standaard zijn geworden binnen AI. Deze architectuur maakt het mogelijk om verbanden in data zeer effectief te modelleren en vormt de basis voor toepassingen variërend van taalmodellen tot beeldherkenning en objectdetectie. DL-modellen zijn krachtiger dan traditionele ML-modellen, omdat ze zelf leren hoe data geïnterpreteerd moet worden en welke kenmerken het meest relevant zijn voor het nemen van een beslissing. Tegelijkertijd zijn DL-modellen vaak minder goed uitlegbaar (zogenoemde ‘black box’-modellen) en vergen zij doorgaans veel rekenkracht, geheugen en grote hoeveelheden data. Per use case moet daarom zorgvuldig worden afgewogen of een DL-model noodzakelijk is, of dat een lichter en beter uitlegbaar ML-model volstaat.\n<br/><br/>\nBinnen het Kadaster passen we ML onder andere toe voor <a href=\"https://labs.kadaster.nl/studenten/appartementsrecht/locatiebepaling_appartementsrecht/\" target=\"_blank\">locatiebepaling van appartementen</a> binnen een appartementencomplex. Ook wordt ML ingezet om de kwaliteit van de BAG te verbeteren, bijvoorbeeld door het <a href=\"https://labs.kadaster.nl/cases/bagbouwjaren\" target=\"_blank\">opsporen van onjuiste jaartallen</a> en het <a href=\"https://labs.kadaster.nl/studenten/bagvoorspellingen/bag_voorspellingen/\" target=\"_blank\">voorspellen van ontbrekende jaartallen</a>.\n<br/><br/>\nDL-modellen worden binnen het Kadaster met name ingezet voor computer-visiontoepassingen en forecasting (zie Time Series Forecasting). Bij de ontwikkeling van Kadastrale Kaart Next (KKN) wordt AI gebruikt voor het interpreteren van handschrift en tekeningen. De kwaliteit van deze interpretaties wordt gecontroleerd via een intensief handmatig proces, waaruit blijkt dat de resultaten zeer goed zijn. Meer informatie over de KKN-algoritmes is te vinden in het <a href=\"https://algoritme.overheid.nl/algoritme/kadastrale-kaart-next-kadaster\" target=\"_blank\">algoritmeregister</a>. Het programma bevindt zich momenteel in de overgangsfase van ‘in ontwikkeling’ naar ‘productie’. Daarnaast lopen er diverse onderzoeken waarbij DL wordt ingezet, zoals het detecteren van zonnepanelen en BRT-objecten op luchtfoto’s.",
+    "Laatst bijgewerkt": "27-2-2026"
+  },
+  {
+    "name": "Metadata Management",
+    "ring": "Adopt",
+    "quadrant": "Omgang met data",
+    "status": "Moved In",
+    "description": "Data groeit en wordt steeds belangrijker en wordt vaak gezien als ‘de waarheid’ waarop beslissingen worden gebaseerd. Het is daarom essentieel om te weten waar data vandaan komt, hoe deze is opgebouwd, wat de kwaliteit en actualiteit is en hoe deze wordt gebruikt. Metadata beschrijft al deze aspecten en vormt daarmee een cruciaal onderdeel van data, zeker wanneer deze wordt gedeeld of gepubliceerd. Hierbij speelt ook het concept digital provenance een belangrijke rol: het expliciet vastleggen van herkomst, authenticiteit en integriteit van data.\n<br/><br/>\nBinnen het Kadaster werken we met veel zogeheten authoritative data: data waarvan herkomst, kwaliteit en actualiteit zijn geborgd en die dient als basis voor besluitvorming. Juist voor dit type data is goed metadata management essentieel. Het Kadaster publiceert een grote hoeveelheid data en investeert daarom al jaren in het meten, verbeteren en ontsluiten van datakwaliteit. We hebben een eigen 'modellenbureau' voor het beheer van datamodellen. We volgen (geo-)standaarden voor het publiceren van metadata bij onze (open) data. Tegelijk volgen we de ontwikkelingen in metadata management en ondernemen we stappen om onze metadata op een hoger niveau te krijgen en te publiceren. Hierin spelen record management en automatisering een grote rol. Binnen deze trend zijn er ook kant en klare systemen beschikbaar voor het beheer van metadata, maar wij trachten meer aan te sluiten bij open standaarden dan bij tools ivm lock-ins van leveranciers. Wij volgen de ontwikkelingen in de markt en doen actief onderzoek naar Metadata Management in samenwerking met universiteiten.",
+    "Laatst bijgewerkt": "7-3-2025"
   },
   {
     "name": "Natural Language Processing",
     "ring": "Adopt",
     "quadrant": "AI en Datascience",
     "status": "No Change",
-    "description": "Natural Language Processing, aangeduid met NLP, is een onderdeel van Artificial Intelligence en wordt gebruikt voor allerlei toepassingen rondom natuurlijke taal. Hieronder vallen onder andere spellingcontrole, chatbots en suggesties in applicaties (bijv. Gmail). Met de komst van het Transformer model zijn taalmodellen snel beter geworden en voor meer toepassingen inzetbaar.\n<br/><br/>\nBinnen het Kadaster wordt ook al gebruik gemaakt van NLP. Zo wordt de akteverwerking ondersteund door NLP, zodat (een deel van) de informatie automatisch uit de aktes gehaald kan worden. Meer informatie over deze toepassing is te vinden in <a href=\"https://algoritme.overheid.nl/algoritme/akte-ai-kadaster/\" target=\"_blank\">het algoritmeregister</a>. Daarnaast ontwikkelen we een applicatie waarmee Kadasterdata middels natuurlijke taal bevraagd kan worden.",
-    "Laatst bijgewerkt": "14-2-2023"
+    "description": "Natural Language Processing, aangeduid met NLP, is een onderdeel van Artificial Intelligence en wordt gebruikt voor allerlei toepassingen rondom natuurlijke taal. Hieronder vallen onder andere spellingcontrole, chatbots en suggesties in applicaties (bijv. Gmail). Met de komst van het Transformer model zijn taalmodellen snel beter geworden en voor meer toepassingen inzetbaar.\n<br/><br/>\nBinnen het Kadaster wordt ook al gebruik gemaakt van NLP. Zo wordt de akteverwerking ondersteund door NLP, zodat (een deel van) de informatie automatisch uit de aktes gehaald kan worden. Meer informatie over deze toepassing is te vinden in <a href=\"https://algoritme.overheid.nl/algoritme/akte-ai-kadaster/\" target=\"_blank\">het algoritmeregister</a>. ",
+    "Laatst bijgewerkt": "27-2-2026"
   },
   {
     "name": "Object storage",
     "ring": "Adopt",
     "quadrant": "Tools en platforms",
-    "status": "New",
+    "status": "No Change",
     "description": "Wegmigreren van klassiekere storage solutions zoals WebDAV, NFS en direct access naar databases. Er wordt nog veel toegang verleent tot databases van andere teams, wat vanuit governance oogpunt niet wenselijk is, doordat je geen of weinig controle hebt op wie welke data mag inzien of bewerken. Door het anders structureren van data en documenten krijgen we betere controle op de integriteit van onze data. Een Object store biedt een interface via welke teams en applicaties data kunnen uitwisselen op een gestandariseerde manier.",
     "Laatst bijgewerkt": "12-3-2025"
   },
@@ -100,14 +116,14 @@
     "ring": "Adopt",
     "quadrant": "Moderne IT",
     "status": "No Change",
-    "description": "Open source software is betekent dat de broncode van software volledig vrij beschikbaar is. Hiermee krijgt iedereen het recht en de mogelijkheid om de broncode in te zien. Dat draagt bij aan de transparantie over hoe de software werkt en het bevordert hergebruik en samenwerking. OSS, de afkorting die meestal gebruikt wordt, is altijd met een open source licentie gepubliceerd waarin is vastgelegd onder welke voorwaarden verbeteringen, aanpassingen en distributie (verdere verspreiding) mag plaatsvinden.\n<br/><br/>\nHet onderwerp open source is binnen de overheid in een stroomversnelling geraakt sinds de publicatie van de brief 'Open, Tenzij' aan de Tweede Kamer door staatssecretaris Knops. Vanuit de EU en de Digitale agenda van het kabinet wordt er nog steeds hard getrokken aan het inzetten op open source. Zie ook <a href=\"https://opensource.pleio.nl\" target=\"_blank\">opensource.pleio.nl</a>. Niet alleen EU en de NLse overheid zetten steeds meer in op open source, maar ook steeds meer commerciële partijen zien het als een mogelijkheid om hun business door te ontwikkelen.\n<br/><br/>\nHet Kadaster heeft in 2023 een Open Source Support Office opgezet, wat over het algemeen beter bekend staat als OSPO, Open Source Program Office. Vanuit het OSPO is er beleid over open source gemaakt.",
-    "Laatst bijgewerkt": "5-2-2024"
+    "description": "Open source software betekent dat de broncode van software volledig vrij beschikbaar is. Iedereen kan de code inzien, gebruiken, aanpassen en verspreiden binnen de voorwaarden van de bijbehorende licentie. Dit bevordert transparantie, samenwerking en hergebruik, en legt de basis voor open, betrouwbare software.\n<br/><br/>\nBinnen de overheid krijgt open source steeds meer aandacht, onder andere sinds de publicatie van de brief ‘Open, Tenzij’ door staatssecretaris Knops. De EU en de Digitale Agenda van het kabinet stimuleren het gebruik van open source, en ook commerciële partijen zien het steeds vaker als strategisch instrument voor innovatie en dienstverlening. Zie ook <a href=\"https://opensource.pleio.nl\" target=\"_blank\">opensource.pleio.nl</a>.\n<br/><br/>\nHet Kadaster heeft in 2023 een Open Source Support Office (OSPO) opgezet om beleid te ontwikkelen rondom het gebruik, bijdragen aan en publiceren van open source software. In het kader van digitale autonomie is open source nog belangrijker geworden, niet alleen voor traditionele applicaties maar ook voor AI-toepassingen. Zo maakt de opkomst van open source taalmodellen het mogelijk meer grip te houden op data, infrastructuur en afhankelijkheden van grote technologiebedrijven.\n<br/><br/>\nOpen source vormt bovendien de technische basis voor Digital Commons: open, interoperabele en herbruikbare digitale oplossingen die gezamenlijk worden ontwikkeld en beheerd, vaak met een publieke of maatschappelijke doelstelling. Door open source software binnen een Digital Commons-benadering te gebruiken, kan het Kadaster bijdragen aan publieke digitale infrastructuur, strategische autonomie vergroten en oplossingen ontwikkelen die herbruikbaar zijn voor andere organisaties en lidstaten.\n<br/><br/>\nTegelijkertijd is het belangrijk te beseffen dat <a href=\"https://ibestuur.nl/markt-en-overheid/inkoop-en-aanbesteding/open-source-lost-het-lock-in-niet-zomaar-op\" target=\"_blank\">open source niet automatisch vendor lock-in voorkomt</a>. Keuzes rond hosting, expertise en beheer blijven bepalend voor de mate van afhankelijkheid.",
+    "Laatst bijgewerkt": "3-2-2026"
   },
   {
     "name": "OpenShift",
     "ring": "Adopt",
     "quadrant": "Tools en platforms",
-    "status": "New",
+    "status": "No Change",
     "description": "Kubernetes platform met \"batteries included\". Redhat heeft met OpenShift een grote focus op security en sensible defaults. Het platform bevat al verschillende componenten zoals pipelines (Tekton), geautomatiseerde deployments en lifecycle management",
     "Laatst bijgewerkt": "12-3-2025"
   },
@@ -115,7 +131,7 @@
     "name": "Power BI",
     "ring": "Adopt",
     "quadrant": "Tools en platforms",
-    "status": "New",
+    "status": "No Change",
     "description": "Applicatie voor dashboarding binnen het Microsoft landschap. Goede integraties met verschillende databronnen. Dashboard kunnen geconfigureerd worden door de business zelf, zonder extra hulp van ontwikkelaars.",
     "Laatst bijgewerkt": "12-3-2025"
   },
@@ -123,55 +139,71 @@
     "name": "Python",
     "ring": "Adopt",
     "quadrant": "Tools en platforms",
-    "status": "New",
+    "status": "No Change",
     "description": "Python is de de facto programmeertaal voor data science en AI toepassingen. Voor deze toepassingen zijn binnen het Python ecosysteem frameworks beschikbaar die niet beschikbaar zijn binnen andere talen. Gezien de huidige focus op AI binnen het Kadaster zien we het gebruik hiervan al enige tijd toenemen. Tevens is Python ook binnen het geo domein een van de meest gebruikte programmeertalen.",
     "Laatst bijgewerkt": "7-3-2025"
   },
   {
-    "name": "Voorspelmodellen",
+    "name": "RAG",
     "ring": "Adopt",
     "quadrant": "AI en Datascience",
-    "status": "New",
-    "description": "Voorspelmodellen maken gebruik van historische data en geavanceerde algoritmes om toekomstige uitkomsten of trends te voorspellen. Deze modellen spelen een belangrijke rol in besluitvorming, van weer- en verkeersvoorspellingen tot het voorspellen van economische trends of klantgedrag. De kwaliteit van voorspelmodellen hangt af van de betrouwbaarheid van de inputdata, de gekozen algoritmes en de context waarin ze worden toegepast. Voor het Kadaster bieden voorspelmodellen kansen om proactiever te handelen, bijvoorbeeld bij het monitoren van ruimtelijke ontwikkelingen en infrastructurele planning.\n<br/><br/>\nHet Data Science Team heeft tijdens het <a href=\"https://labs.kadaster.nl/innovatie/voorspelmodellen/voorspel_modellen/\" target=\"_blank\">Voorspellen werkaanbod</a> onderzoek een voorspelmodel ontwikkeld om de bemensing beter te kunnen voorspellen. Met de huidige methode kan al een exactere voorspelling en voor verder vooruit worden gemaakt.",
-    "Laatst bijgewerkt": "7-3-2025"
+    "status": "Moved In",
+    "description": "Retrieval-Augmented Generation (RAG) is een techniek die wordt toegepast in combinatie met Large Language Models (LLM’s) om antwoorden beter te onderbouwen en te baseren op specifieke bronnen. In plaats van uitsluitend te vertrouwen op de kennis die in het model zelf is opgeslagen, wordt bij RAG eerst relevante informatie opgehaald uit een aparte kennisbron. Deze informatie wordt vervolgens meegegeven aan het taalmodel om een antwoord te genereren. Hierdoor worden antwoorden expliciet gebaseerd op geselecteerde documenten en wordt de kans op onjuiste of niet-herleidbare informatie verkleind.\n<br/><br/>\nBinnen <a href=\"https://labs.kadaster.nl/innovatie/chatbotkaatje/kaatje\" target=\"_blank\">Kaatje</a> wordt RAG toegepast om antwoorden te baseren op specifieke Kadasterbronnen. Kaatje combineert een taalmodel met opgehaalde informatie uit geselecteerde documenten, zodat gebruikers vragen kunnen stellen in natuurlijke taal en antwoorden ontvangen die aansluiten op de beschikbare en gecontroleerde kennis. Door deze combinatie van ophalen (retrieval) en genereren (generation) wordt de betrouwbaarheid en relevantie van de antwoorden vergroot.",
+    "Laatst bijgewerkt": "27-2-2026"
   },
   {
-    "name": "AI Agents",
+    "name": "Time series forecasting",
+    "ring": "Adopt",
+    "quadrant": "AI en Datascience",
+    "status": "No Change",
+    "description": "Time series forecasting is een specifieke vorm van voorspelmodellen waarbij historische, tijdgebonden data wordt gebruikt om toekomstige waarden of trends te voorspellen. Denk hierbij aan gegevens die per dag, maand of jaar worden gemeten. Door patronen zoals seizoensinvloeden, trends en terugkerende fluctuaties te analyseren, kunnen deze modellen inschattingen maken over toekomstige ontwikkelingen. Time series forecasting is daarmee een belangrijke toepassing van voorspelmodellen binnen AI en data-analyse.\n\nDe kwaliteit van dit type voorspelmodellen hangt sterk af van de betrouwbaarheid en volledigheid van de historische data, de gekozen algoritmes en de context waarin de uitkomsten worden gebruikt. Voor het Kadaster biedt time series forecasting kansen om proactiever te sturen, bijvoorbeeld bij capaciteitsplanning en het tijdig inspelen op veranderingen in werkaanbod.\n<br/><br/>\nHet Data Science Team heeft tijdens het <a href=\"https://labs.kadaster.nl/innovatie/voorspelmodellen/voorspel_modellen/\" target=\"_blank\">Voorspellen werkaanbod</a> onderzoek een time series-voorspelmodel ontwikkeld om de benodigde bemensing beter te kunnen voorspellen. Met de huidige methode kunnen nauwkeurigere voorspellingen worden gedaan en kan verder vooruit worden gekeken dan voorheen mogelijk was.\n\nDaarnaast wordt momenteel gewerkt aan de ontwikkeling van een nieuw voorspelmodel voor het KCC (Klantcontactcentrum). Hierbij wordt niet alleen gekeken naar traditionele time series-technieken, maar ook naar de inzet van zogeheten foundation models, om te onderzoeken of deze aanvullende waarde kunnen bieden bij het analyseren en voorspellen van klantcontactstromen.",
+    "Laatst bijgewerkt": "27-2-2026"
+  },
+  {
+    "name": "Data soevereiniteit",
+    "ring": "Assess",
+    "quadrant": "Omgang met data",
+    "status": "New",
+    "description": "Data-soevereiniteit gaat over het eigendom, de controle en het beheer van data: wie bepaalt hoe data wordt gebruikt, gedeeld en opgeslagen. Voor het Kadaster is dit een belangrijk aandachtspunt in het kader van digitale autonomie. Door te zorgen dat we grip hebben op onze data en de bijbehorende infrastructuur, kunnen we onafhankelijker opereren en tegelijkertijd voldoen aan wet- en regelgeving. Dit sluit aan bij andere initiatieven zoals het gebruik van open source software, Europese cloudoplossingen en het onderzoek naar AI-toepassingen die meer controle over data vereisen. Op termijn wil het Kadaster hiermee beter kunnen sturen op veiligheid, toegankelijkheid en betrouwbaarheid van onze data.",
+    "Laatst bijgewerkt": "2-3-2026"
+  },
+  {
+    "name": "Geospatial Vector Embeddings",
     "ring": "Assess",
     "quadrant": "AI en Datascience",
     "status": "New",
-    "description": "AI Agents zijn autonome softwareprogramma's die taken kunnen uitvoeren zonder direct menselijk ingrijpen. Deze agents kunnen complexe workflows automatiseren, beslissingen nemen en interacties aangaan met andere systemen of gebruikers. Ze worden steeds vaker ingezet in domeinen zoals klantenservice, procesoptimalisatie en data-analyse. De toekomst van AI Agents ligt in hun vermogen om steeds complexere taken zelfstandig uit te voeren, waarbij ethiek, transparantie en controle belangrijke aandachtspunten blijven.\n<br/><br/>\nBij het <a href=\"https://labs.kadaster.nl/innovatie/chatbotkaatje/kaatje/\" target=\"_blank\">Chatbot Kaatje</a> onderzoek is RAG en Agentic AI functionaliteit onderzocht. Door een natuurlijke vraag te stellen, bepaald de chatbot zelf welke actie precies nodig is. Zo kan er een API bevraagd worden of documenten doorzocht om goed antwoord te geven op de gestelde vraag. RAG kan een module zijn van een AI Agent, maar een agent kan dus ook andere integraties hebben.",
-    "Laatst bijgewerkt": "7-3-2025"
+    "description": "Geospatial Vector Embeddings zetten geografische objecten om in vectoren die ruimtelijke relaties en patronen vastleggen. Net als bij taalmodellen maakt dit het mogelijk om geodata slimmer te analyseren, vergelijken en toepassen in bijvoorbeeld mobiliteit, planning en aanbevelingssystemen.",
+    "Laatst bijgewerkt": "11-3-2026"
   },
   {
-    "name": "Blockchain",
-    "ring": "Assess",
-    "quadrant": "Omgang met data",
-    "status": "No Change",
-    "description": "De hype van blockchain begint af te nemen. D.w.z. in theorie kan het nog steeds het Kadaster vervangen, maar in een land waar het Kadaster wordt vertrouwd voegt dit niets toe. Het adresseert wel een relevant onderwerp, namelijk: vertrouwen en dan met name vertrouwen in het digitale domein. Welke autoriteit 'zegt' dat data klopt en wat zegt dat dan? Een voorbeeld is Self-sovereign Idenitity (zie verderop in de radar). Voor het scheppen van vertrouwen in uitgegeven credentials is een decentraal beheerd, onveranderlijk en openbaar register waarin de metadata van uitgegeven credentials als anonieme gegevens voor iedereen te raadplegen zijn, noodzakelijk. Voor dit register lijkt een Blockchain ideaal en er is reeds een European Blockchain Services Infrastructure (EBSI) opgezet.\n<br/><br/>\nDe technologie onder blockchain heet Distributed Ledger Technology. Dit is een technische oplossing om een gedistribueerde ledger, grootbook of database te beheren. Hier zijn vele verschijningsvormen van waarbij over het algemeen geldt dat de data vaak niet rechtstreeks op de blockchain (in de ledger) wordt opgeslagen, maar erbuiten en alleen de 'administratie' van de ledger erin wordt vastgelegd. Deze technologie biedt mogelijkheden om decentraal wijzigingen te doen terwijl er toch met een groter geheel integriteit wordt bewaakt. Dit onderdeel van blockchain heeft het Kadaster met succes toegepast in <a href='/demonstrators/sensrnet/index.html' target=\"_blank\">SensRNet</a>, een nieuwe nationale registratie van sensoren waarin deelnemers (nodes) in het register(netwerk) zelf sensoren kunnen beheren, terwijl de data integriteit en koppeling tussen de deelnemers door blockchain worden gegarandeerd. Als zodanig wordt blockchain of DLT, onderdeel van het nieuwe internet voor specifieke onderdelen en aspecten waarin data decentraal gedeeld moet worden.",
-    "Laatst bijgewerkt": "14-2-2023"
-  },
-  {
-    "name": "Digital Twin",
-    "ring": "Assess",
-    "quadrant": "Omgang met data",
-    "status": "Moved Out",
-    "description": "De digitale revolutie heeft momenteel de wereld in beweging gebracht en de versmelting van de fysieke en digitale wereld is zichtbaar in het opkomen van digital twins. Een digital twin is een digitale weergave van een fysiek object. Het Kadaster beschouwt een digital twin van de gebouwde omgeving als het meest relevant. Dit is een dynamische digitale representatie van de fysieke wereld die gebruikersvriendelijke visualisaties van zowel de boven- als ondergrond biedt en in staat is om de fysieke wereld beter te laten functioneren door bijvoorbeeld te simuleren, monitoren en voorspellen.\n<br/><br/>\nHet Kadaster speelt een belangrijke rol bij het ontwikkelen van digital twins door het bieden van data en technische bouwblokken voor de creatie van deze twins. Het Kadaster's rol als facilitator maakt het mogelijk voor andere partijen om digital twins te creëren en daarmee bij te dragen aan een betere fysieke wereld. Dit zien we bijvoorbeeld terug in het ontwikkelen van geluidsmodellen, voor het voorspellen en beperken van geluidsoverlast. Op basis van Kadasterdata kan één gezamelijk 3D-model gebruikt worden, waardoor verschillende partijen dezelfde digitale weergave als uitgangspunt kunnen nemen. Vanuit Werk aan Uitvoering (WaU) bouwt het Kadaster een 3D Basismodel Fysieke Leefomgeving",
-    "Laatst bijgewerkt": "5-2-2024"
-  },
-  {
-    "name": "Extended Reality",
+    "name": "Point Clouds",
     "ring": "Assess",
     "quadrant": "Moderne IT",
     "status": "No Change",
-    "description": "Extended reality is de overkoepelende term voor Virtual Reality (VR), Mixed Reality (MR), Augmented Reality (AR) en andere immersieve technologieën die de fysieke en digitale wereld verbinden. Hierbij gaat het vooral om de visualisatie zelf en heeft de techniek daarom ook raakvlakken met andere techs zoals digital twin. Het Kadaster onderzoekt waar VR en AR van toepassing kunnen zijn. Er zijn experimenten uitgevoerd met AR voor grensreconstructie en momenteel wordt er gewerkt aan een <a href=\"https://labs.kadaster.nl/innovatie/arapplicatie/ar_applicatie\" target=\"_blank\"> AR en VR applicatie op basis van de Kadaster Knowledge Graph </a>. ",
-    "Laatst bijgewerkt": "5-2-2024"
+    "description": "Een point cloud (puntenwolk) is een digitale representatie van een fysieke omgeving of een object, opgebouwd uit miljoenen punten in een driedimensionale ruimte. Elk punt bevat x-, y- en z-coördinaten en vaak ook aanvullende informatie, zoals kleur of reflectie-intensiteit. Point clouds worden gegenereerd met een LiDAR-scanner (Light Detection and Ranging) of via fotogrammetrische technieken, waarbij overlappende foto’s worden omgezet in een 3D-model.\n\nDeze technologie wordt gekenmerkt als non-contact en non-destructief, wat betekent dat een object of omgeving digitaal kan worden vastgelegd zonder fysiek contact of beschadiging. Hierdoor is het een waardevolle methode om een nauwkeurige digitale kopie van de werkelijkheid te maken. Momenteel wordt er onderzoek uitgevoerd om te bepalen of en in hoeverre objecten kunnen worden geïdentificeerd binnen de puntenwolken. Hierbij ligt de focus onder andere op het detecteren van hoogteobstakels, maar ook op het herkennen van andere relevante structuren en kenmerken die van belang kunnen zijn voor verdere analyse en toepassingen.\n\nBij het Kadaster zijn er twee toepassingsgebieden: Landmeetkunde en Geo. Binnen Landmeetkunde heeft een onderzoek plaatsgevonden of puntenwolken van derden (dus niet zelfingewonnen puntenwolken) kunnen worden toegepast voor 'plaats- en tijd onafhankelijk aanwijs halen'. Hierbij werd gekeken hoe puntenwolken in de communicatie met stakeholders buiten het kadaster (de eigenaren van de gens) gebruikt kunnen worden. Onder particuliere klanten was er weinig behoefte voor deze manier van aanwijs halen en werd een fysiek bezoek van de landmeter meer gewaardeerd.\n<br/><br/>\nDaarnaast is ook gekeken hoe we als Kadaster puntenwolken kunnen controleren op nauwkeurigheid zodat we de puntenwolk van derden voor de metingen kunnen accepteren en niet zelf hoeven in te winnen. Deze bleken nog niet van voldoende nauwkeurigheid. Binnen het GEO-domein is het Kadaster al veel verder: puntenwolken dienen mede als input voor onze 3D-basisvoorziening. ",
+    "Laatst bijgewerkt": "4-4-2026"
+  },
+  {
+    "name": "Postquantum cryptografie",
+    "ring": "Assess",
+    "quadrant": "Moderne IT",
+    "status": "New",
+    "description": "Sterke cryptografie is essentieel om diefstal van gevoelige of vertrouwelijke gegevens te voorkomen, de integriteit en authenticiteit van data te waarborgen en ongeautoriseerde toegang tot systemen tegen te gaan. Hoewel het Kadaster grotendeels werkt met open en getarifeerde data, zijn met name de risico’s rondom integriteit en authenticiteit van groot belang. Het is cruciaal dat gegevens aantoonbaar correct, ongewijzigd en afkomstig van een betrouwbare bron zijn.\n<br/><br/>\nMet het oog op toekomstige technologische ontwikkelingen, zoals quantumcomputing, wordt de overstap naar post-quantumcryptografie steeds relevanter. Deze nieuwe generatie cryptografie is ontworpen om bestand te zijn tegen aanvallen met quantumcomputers. De migratie hiernaartoe vraagt om tijdige diagnose en planning: inzicht in waar en hoe cryptografie wordt toegepast, welke systemen geraakt worden en welke aanpassingen nodig zijn.\n<br/><br/>\nPost-quantumcryptografie stelt bovendien hogere eisen aan hardware en prestaties, wat gevolgen kan hebben voor infrastructuur en kosten. Ook dient dit expliciet te worden meegenomen in Service Level Agreements (SLA’s) met leveranciers. Het is daarom verstandig dat het Kadaster tijdig start met een verkenning, impactanalyse en migratieplanning, zodat de continuïteit en betrouwbaarheid van de informatievoorziening ook in een post-quantumtijdperk gewaarborgd blijft.",
+    "Laatst bijgewerkt": "2-3-2026"
+  },
+  {
+    "name": "Privacy Enhancing Technologies",
+    "ring": "Assess",
+    "quadrant": "Omgang met data",
+    "status": "Moved Out",
+    "description": "Dit is een verzamelnaam voor technieken die worden ingezet om persoonsgegevens beter te beschermen. Het doel is om privacy zoveel mogelijk te waarborgen, zonder dat dit ten koste gaat van de functionaliteit van systemen. Voorbeelden van privacy-enhancing technologies (PET’s) zijn Multi-Party Computation (MPC), federated learning, differential privacy, maar ook data-anonimisering en pseudonimisering.\n<br/><br/>\nBinnen het Kadaster zijn eerder verschillende PET’s verkend. Zo heeft het ETC de mogelijkheden van MPC onderzocht via een pilot met onder andere KvK en TNO. Daarnaast is door Team Onderzoek gekeken naar synthetische data: kunstmatig gegenereerde datasets die de statistische eigenschappen van echte data behouden, maar niet herleidbaar zijn naar individuele personen. De komende periode wordt mogelijk opnieuw verkend wat deze en andere PET’s voor het Kadaster kunnen betekenen.\n<br/><br/>\nVanuit de overheid wordt eveneens belangrijk onderzoek gedaan naar privacy-enhancing technologies, bijvoorbeeld binnen het <a href=\"https://www.digitaleoverheid.nl/nieuws/nicpet-bevordert-veilige-en-ethische-data-uitwisseling-met-pet/\" target=\"_blank\">Nicpet innovatiecentrum</a>, waarin verschillende overheidspartijen samenwerken aan veilige en ethische data-uitwisseling.",
+    "Laatst bijgewerkt": "4-3-2026"
   },
   {
     "name": "Rust",
     "ring": "Assess",
     "quadrant": "Tools en platforms",
-    "status": "New",
+    "status": "No Change",
     "description": "Het speerpunt van Rust is memory-safety, waardoor applicaties robuuster moeten lopen. De taal heeft een stijle leercurve en hoewel die vaak voor meer low-level libraries wordt gebruikt, kunnen we er ook applicaties in schrijven. Een interessante taal om kennis van op te doen, maar onverstandig om nu alles naar Rust om te gaan schrijven.",
     "Laatst bijgewerkt": "7-3-2025"
   },
@@ -179,7 +211,7 @@
     "name": "Unity Catalog",
     "ring": "Assess",
     "quadrant": "Tools en platforms",
-    "status": "New",
+    "status": "No Change",
     "description": "Unity Catalog is een open-source databeheertool ontwikkeld door Databricks die helpt bij het beheren en beveiligen van data in zowel publieke als private cloudomgevingen. Het biedt een centrale plaats voor data governance, waarbij functies zoals toegangsbeheer, dataclassificatie en auditlogging worden gecombineerd. Unity Catalog is ontworpen om data toegankelijk te maken voor verschillende teams, terwijl het tegelijkertijd zorgt voor naleving van regelgeving en dataprivacy. Door de ondersteuning voor private cloud, biedt het ook mogelijkheden voor organisaties met strengere eisen rond databeheer en beveiliging. Unity Catalog biedt Kadaster een robuuste oplossing om data beter te organiseren, toegankelijk te maken en te beschermen, in lijn met strengere eisen rond databeheer en transparantie. ",
     "Laatst bijgewerkt": "7-3-2025"
   },
@@ -187,15 +219,47 @@
     "name": "uv",
     "ring": "Assess",
     "quadrant": "Tools en platforms",
-    "status": "New",
+    "status": "No Change",
     "description": "Nieuwe Python buildtool die snel aan populariteit heeft gewonnen. Het vervangt vele verschillende tools in het gefragmenteerde Python tooling landschap en onderscheid zich in snelheid en gebruikersgemak. Het wordt ontwikkeld door een start-up, het is dus wel de vraag of wat ze op langer termijn met de licentie willen doen. Gezien de software open-source is, zal er in dat scenario echter snel een fork worden gemaakt, waardoor het risico klein is.",
     "Laatst bijgewerkt": "12-3-2025"
+  },
+  {
+    "name": "Virtual Graphs",
+    "ring": "Assess",
+    "quadrant": "Omgang met data",
+    "status": "New",
+    "description": "Kadaster beheert de grootste Knowledge Graph van Nederland, de <a href=\"https://data.kkg.kadaster.nl\" target=\"_blank\">Kadaster Knowledge Graph</a>. Hierin wordt data uit verschillende bronnen (zoals BAG, BGT, BRT en DKK) samengebracht in één samenhangend kennisnetwerk. Dit maakt geavanceerde analyses mogelijk, bijvoorbeeld op gebouw- en objectinformatie. In de huidige inrichting worden triples uit de brondata gematerialiseerd volgens een overkoepelend informatiemodel (IMX-Geo). Dit maakt de integratie complex en doordat de bijwerking periodiek plaatsvindt, zijn analyses gebaseerd op niet volledig actuele data.\n<br/><br/>\nDaarom onderzoekt het Kadaster federatieve (virtuele) Knowledge Graphs. Het uitgangspunt hierbij is dat data zoveel mogelijk bij de bron blijft en real-time of near real-time wordt bevraagd. Wanneer brondata al als Knowledge Graph beschikbaar is, kan deze direct worden gekoppeld. Daarnaast is het mogelijk om via een virtualisatielaag relationele databronnen als linked data te ontsluiten, zonder triples fysiek te materialiseren.\n<br/><br/>\nUit eerder onderzoek bleek dat volledige virtualisatie op dit moment nog niet geschikt is voor de bestaande KKG, onder andere vanwege omvang en performance-eisen. Daarom verkennen we nu of deze aanpak beter toepasbaar is op metadata of kleinere, nieuwe datasets. In dat kader is onder andere gekeken naar technologieën zoals Ontop. Het doel is om datasets flexibeler en actueler te kunnen koppelen, met minder duplicatie en meer aansluiting op de bron.",
+    "Laatst bijgewerkt": "2-3-2026"
+  },
+  {
+    "name": "AI Agents",
+    "ring": "Explore",
+    "quadrant": "AI en Datascience",
+    "status": "Moved In",
+    "description": "AI Agents zijn autonome softwareprogramma’s die taken kunnen uitvoeren zonder direct menselijk ingrijpen. Deze agents kunnen complexe workflows automatiseren, beslissingen nemen en interacties aangaan met andere systemen of gebruikers. Ze worden steeds vaker ingezet in domeinen zoals klantenservice, procesoptimalisatie en data-analyse. Daarbij worden agents ook steeds autonomer: ze kunnen niet alleen antwoorden genereren, maar ook zelfstandig acties ondernemen, zoals het aanroepen van API’s of het uitvoeren van stappen in een proces. De toekomst van AI Agents ligt in hun vermogen om steeds complexere taken zelfstandig uit te voeren, waarbij ethiek, transparantie en controle belangrijke aandachtspunten blijven. Tijdens het bezoek aan de AI for Good Summit 2025 werd benadrukt dat met de inzet van Agentic AI privacy op applicatie-niveau goed georganiseerd kan zijn, maar op stack-niveau niet. Dit inzicht is zowel relevant voor het inzetten van agents door het Kadaster als voor agents die interacteren met het Kadaster.\n<br/><br/>\nBij het <a href=\"https://labs.kadaster.nl/innovatie/chatbotkaatje/kaatje/\" target=\"_blank\">Chatbot Kaatje</a> onderzoek is RAG en Agentic AI-functionaliteit onderzocht. Door een natuurlijke vraag te stellen, bepaalt de chatbot zelf welke actie nodig is. Zo kan bijvoorbeeld een API worden bevraagd of kunnen documenten worden doorzocht om tot een goed antwoord te komen. RAG kan hierbij een module zijn van een AI-agent, maar een agent kan ook andere integraties en acties combineren binnen één workflow.",
+    "Laatst bijgewerkt": "2-3-2026"
+  },
+  {
+    "name": "AI Coding Tools",
+    "ring": "Explore",
+    "quadrant": "Moderne IT",
+    "status": "New",
+    "description": "AI Coding Tools worden ingezet bij zogeheten vibe coding: in plaats van handmatig code te schrijven, geef je instructies aan een AI-agent die vervolgens softwarecode genereert. De rol van de softwareontwikkelaar verschuift daarbij van het zelf typen van code naar het ontwerpen van de gewenste oplossing, het formuleren van duidelijke instructies en het beoordelen en verbeteren van de gegenereerde output. Dit is geen eenmalige stap, maar een iteratief proces waarin continu wordt bijgestuurd en gevalideerd.\n<br/><br/>\nHet Kadaster heeft hiervoor onder andere een pilot uitgevoerd met GitHub Copilot om ervaring op te doen met de inzet van AI-ondersteuning in het ontwikkelproces. Tegelijkertijd volgen we ook nieuwe ontwikkelingen zoals open source coding tools (bijvoorbeeld OpenCode), die interessant zijn in het kader van digitale autonomie. Deze tools bieden meer controle over data, modellen en infrastructuur, en kunnen een alternatief vormen voor commerciële oplossingen waarbij afhankelijkheid van externe partijen groter is.",
+    "Laatst bijgewerkt": "2-3-2026"
+  },
+  {
+    "name": "Data contracts",
+    "ring": "Explore",
+    "quadrant": "Omgang met data",
+    "status": "New",
+    "description": "Data contracts beschrijven de afspraken rondom data-uitwisseling tussen producenten en afnemers. Denk hierbij aan het dataschema, definities, kwaliteitsafspraken en service levels (SLA’s). Door deze afspraken expliciet vast te leggen ontstaat meer duidelijkheid over wat data betekent, hoe deze gebruikt mag worden en wat gebruikers ervan mogen verwachten.\n<br/><br/>\nBinnen het Kadaster wordt momenteel onderzocht hoe data contracts kunnen worden toegepast op bestaande datasets, gebaseerd op de Open Data Contract Standard. Data contracts vormen een aanvulling op metadata management: waar metadata vooral beschrijvend is, maken data contracts afspraken expliciet en afdwingbaar. Dit draagt bij aan betere samenwerking, hogere datakwaliteit en meer vertrouwen in data, zowel intern als extern.",
+    "Laatst bijgewerkt": "8-4-2026"
   },
   {
     "name": "Databricks",
     "ring": "Explore",
     "quadrant": "Tools en platforms",
-    "status": "New",
+    "status": "No Change",
     "description": "Databricks is een cloudgebaseerd platform dat gespecialiseerd is in het verwerken en analyseren van grote hoeveelheden data. Het combineert data-engineering, data-analyse en machine learning in één geïntegreerd platform. Gebouwd op Apache Spark, maakt Databricks het mogelijk om datastromen eenvoudig te beheren, complexe modellen te trainen en snel inzichten te genereren. Databricks biedt een krachtige tool voor het ontwikkelen van voorspelmodellen, het beheren van datastromen en het versnellen van datagedreven innovaties. Het platform benadrukt samenwerking, wat essentieel is voor teams die intensief met data werken.",
     "Laatst bijgewerkt": "7-3-2025"
   },
@@ -204,7 +268,7 @@
     "ring": "Explore",
     "quadrant": "Omgang met data",
     "status": "No Change",
-    "description": "Waar kluizen, sluizen en wallets zich richten op individuen, richten dataspaces zich op organisaties en industrieën. Een dataspace heeft als doel het stimuleren van datadeling en samenwerking terwijl organisaties controle houden over hun data. Klinkt als een fancy omschrijving voor afsprakenstelsel. Dataspaces worden genoemd in de Europese Data Governance Act.\n<br/><br/>\nIn 2023 heeft het Kadaster een onderzoek uitgevoerd naar dataspaces en kwamen zij tot de conclusie dat er geen eenduidige definitie bestaat maar wel terugkerende kenmerken zoals interoperabiliteit, spelregels voor gebruik en data bij de bron. Het Kadaster levert anno 2024 een bijdrage aan het ontwikkelen van het <a href=\"https://federatief.datastelsel.nl\" target=\"_blank\">Federatief Datastelsel</a>, een initiatief onder de vlag van de Interbestuurlijke Datastrategie van BZK.",
+    "description": "Waar kluizen, sluizen en wallets zich richten op individuen, richten dataspaces zich op organisaties en industrieën. Een dataspace heeft als doel het stimuleren van datadeling en samenwerking terwijl organisaties controle houden over hun data. Klinkt als een fancy omschrijving voor afsprakenstelsel. Dataspaces worden genoemd in de Europese Data Governance Act. Data Connectoren verbinden de data. Een data‑connector is een softwarecomponent die de gecontroleerde, veilige en interoperabele uitwisseling van data tussen organisaties mogelijk maakt, waarbij de data‑eigenaar zeggenschap houdt over toegang en gebruik. Onderzoek wordt nu door Geonovum in opdracht van Kadaster uitgevoerd met als doel te beproeven hoe een connector als ids werkt op een dataspace.\n<br/><br/>\nIn 2023 heeft het Kadaster een onderzoek uitgevoerd naar dataspaces en kwamen zij tot de conclusie dat er geen eenduidige definitie bestaat maar wel terugkerende kenmerken zoals interoperabiliteit, spelregels voor gebruik en data bij de bron. Het Kadaster levert anno 2024 een bijdrage aan het ontwikkelen van het <a href=\"https://federatief.datastelsel.nl\" target=\"_blank\">Federatief Datastelsel</a>, een initiatief onder de vlag van de Interbestuurlijke Datastrategie van BZK.",
     "Laatst bijgewerkt": "5-2-2024"
   },
   {
@@ -212,111 +276,111 @@
     "ring": "Explore",
     "quadrant": "AI en Datascience",
     "status": "No Change",
-    "description": "Generative AI is een deelgebied van AI waarbij het doel is om nieuwe en unieke output te genereren aan de hand van een bepaald model. Dit model is getraind op een grote dataset en kan worden gebruikt om te voorspellen of het genereren van nieuwe, waarschijnlijke output. Een erg nuttige toepassing hiervan is code generation, waarmee programmeercode gegenereerd wordt. Steeds meer software ontwikkelaars binnen het Kadaster maken hier gebruik van, wat ze in staat stelt sneller en efficiënter te werken.\n<br/><br/>\nVoor het Kadaster is generatieve AI daarnaast een interessante ontwikkeling voor het genereren van synthetische data. Zo denken we na over hoe we een generatief model kunnen inzetten om nieuwe, realistische gegevens te genereren voor testdoeleinden. Dit zou kunnen helpen bij het verbeteren van de kwaliteit van het systeem en de integriteit van de gegevens. Dit doen we bijvoorbeeld binnen de akteverwerking.\n<br/><br/>\nOok onderzoeken we het inzetten van generatieve AI voor het genereren van afbeeldingen voor interne nieuwsartikelen. Generatieve AI nog steeds een snel evoluerend veld, en we blijven de toepasbaarheid ervan onderzoeken.",
-    "Laatst bijgewerkt": "29-1-2024"
-  },
-  {
-    "name": "Large Language Models",
-    "ring": "Explore",
-    "quadrant": "AI en Datascience",
-    "status": "No Change",
-    "description": "Large Language Models (LLM) zijn neurale netwerkmodellen die getraind worden op grote hoeveelheden tekstuele data om complexe taalkundige taken uit te voeren. LLM's gebruiken transformer-modellen om natuurlijke taal in een interne representatie te coderen, waardoor het model in staat is om verbanden te leggen tussen verschillende delen van de tekst. Hierdoor kan het model taken uitvoeren zoals vertalen, samenvatten, vragen beantwoorden en genereren van tekst.\n<br/><br/>\nBinnen het Kadaster onderzoeken we onder andere LLM's om informatie uit aktes te extraheren, wat nu nog een handmatige taak is. LLM's stellen ons in staat om aktes te begrijpen. Dit is iets waar we actief onderzoek naar doen. Daarnaast gebruiken we een LLM voor onze virtuele assistent Loki voor het bevragen van de Kadaster Knowledge Graph in natuurlijke taal.\n<br/><br/>\nDe toevoeging van een Knowledge Graph (KG) aan taalmodellen kan hun effectiviteit en nauwkeurigheid verder verbeteren. Een KG is een gestructureerde representatie van feiten, waarbij entiteiten en hun onderlinge relaties in een netwerk worden weergegeven. Dit stelt een LLM in staat om niet alleen te vertrouwen op de context binnen de tekst, maar ook op externe, gestructureerde kennis. Dit kan helpen minder onjuistheden te genereren, maar ook diepgaande antwoorden te kunnen geven over specialistische domeinen.",
-    "Laatst bijgewerkt": "29-1-2024"
+    "description": "Generative AI is een deelgebied van AI waarbij het doel is om nieuwe en unieke output te genereren met behulp van een getraind model. Zo’n model is getraind op grote hoeveelheden data en leert patronen herkennen om vervolgens nieuwe, waarschijnlijke output te produceren. Een veelgebruikte toepassing is code generation, waarbij automatisch programmeercode wordt gegenereerd. Steeds meer softwareontwikkelaars binnen het Kadaster maken hier gebruik van, wat hen in staat stelt sneller en efficiënter te werken (zie ook AI coding tools)\n<br/><br/>\nVoor het Kadaster is generatieve AI daarnaast een interessante ontwikkeling om data op nieuwe manieren toegankelijk en analyseerbaar te maken. Binnen het project <a href=\"https://labs.kadaster.nl/innovatie/lokinexus/lokinexus/\" target=\"_blank\">Loki Nexus</a> wordt een innovatieve demo-chatbot ontwikkeld waarmee gebruikers via natuurlijke taalvragen data-analyses kunnen uitvoeren. Loki Nexus maakt het mogelijk om uiteenlopende datasets te selecteren (eigen data, vooraf klaargezette data of API-bronnen) en vragen te stellen over de data, waarna antwoorden in tekst, grafieken of kaarten worden gegenereerd. Dit verlaagt de drempel voor het uitvoeren van data-analyse, omdat er geen specialistische kennis nodig is en de gegenereerde output – inclusief uitleg van de stappen (reasoning) – direct inzicht geeft in de resultaten.\n<br/><br/>\nDaarnaast wordt binnen het Kadaster ervaring opgedaan met generatieve AI-toepassingen zoals Copilot, die medewerkers ondersteunt bij dagelijkse werkzaamheden zoals het schrijven, samenvatten en structureren van teksten of het analyseren van informatie. Generatieve AI blijft een snel evoluerend veld, en we blijven de mogelijkheden en randvoorwaarden voor een verantwoorde inzet binnen de organisatie actief verkennen.",
+    "Laatst bijgewerkt": "27-2-2026"
   },
   {
     "name": "Mendix",
     "ring": "Explore",
     "quadrant": "Tools en platforms",
-    "status": "New",
+    "status": "No Change",
     "description": "Mendix is een low-code platform waarmee mensen met beperkte ontwikkelvaardigheden ook applicaties kunnen maken. Dit is vooral geschikt wanneer het (kleine) portals betreft met een beperkte scope, niet of weinig onderhevig zijn aan verandering en weinig custom requirements heeft. Versiebeheer is tevens ook lastig, er zal dus voor elk toepassingen afgewogen moeten worden of low-code de juiste oplossing is, of dat we te snel tegen limitaties aan lopen. Het leent zich daarom meer voor om applicaties daar te laten landen die niet direct door devops teams opgepakt kunnen worden n/of geintereerd hoeven te worden met het bestaande applicatie landschap van z'n team.",
     "Laatst bijgewerkt": "7-3-2025"
   },
   {
-    "name": "Metadata Management",
+    "name": "MLOps",
     "ring": "Explore",
-    "quadrant": "Omgang met data",
+    "quadrant": "Moderne IT",
+    "status": "New",
+    "description": "Het Kadaster wil steeds breder inzetten op de toepassing van AI. Zo is er een goedgekeurde AI-governance met bijbehorende AI-visie opgesteld. Om AI verantwoord toe te kunnen passen, moeten wij ook een MLOps platform gaan inrichten. Dit is de IT-onderlaag voor AI en Data Science in het reguliere (voortbrengings)proces. Geïnspireerd door GitOps en ons MAP platform heeft er al een eerste korte verkenning plaatsgevonden. ",
+    "Laatst bijgewerkt": "2-3-2026"
+  },
+  {
+    "name": "Model Context Protocol (MCP)",
+    "ring": "Explore",
+    "quadrant": "Moderne IT",
+    "status": "New",
+    "description": "MCP is een opensource protocol voor het gestandaardiseerd ontsluiten van services voor AI agents. Het werkt volgens een server-client model, waarbij MCP servers verschillende functionaliteiten ontsluiten. Hiermee kan een AI agent bijvoorbeeld real-time data ophalen van externe bronnen. In plaats van aparte integraties te maken voor elke API die je wilt gebruiken, biedt MCP een abstractie-laag die de API endpoints vastleggen. De mogelijke acties worden als \"tools\" of \"function calls\" beschikbaar gemaakt aan de LLM. Kadaster onderzoekt MCP voor meer dynamische data-uitwisseling met andere partijen. Daarnaast het integreren van externe diensten en pakketten in interne tooling.",
+    "Laatst bijgewerkt": "2-3-2026"
+  },
+  {
+    "name": "Neuro-symbolic AI",
+    "ring": "Explore",
+    "quadrant": "AI en Datascience",
     "status": "Moved In",
-    "description": "Data groeit en wordt steeds belangrijker. Data wordt steeds vaker gezien als 'de waarheid' om beslissingen op te baseren. Het is daarom van belang om te weten waar data ontstaan is, welke data gebruikt wordt voor een beslissing, wat het data model, de data kwaliteit en de data actualiteit is. Metadata beschrijft al deze aspecten en zou onderdeel moeten zijn van de data, zeker daar waar data gepubliceerd wordt. Met metadata wordt Metadata Management ook steeds belangrijk. Data hoeft niet altijd van de hoogste actualiteit en kwaliteit te zijn, maar de metadata wel!\n<br/><br/>\nKadaster heeft en publiceert een behoorlijke omvang van data en daarmee zijn metadata en metadata management relevante activiteiten. Dat doen wij dan ook al jaren. We zetten ons in voor data kwaliteit, het meten daarvan, het verbeteren daarvan én het publiceren van die kwaliteit. We hebben een eigen 'modellenbureau' voor het beheer van datamodellen. We volgen (geo-)standaarden voor het publiceren van metadata bij onze (open) data. Tegelijk volgen we de ontwikkelingen  in metadata management en ondernemen we stappen om onze metadata op een hoger niveau te krijgen en te publiceren. Hierin spelen record management en automatisering een grote rol. Binnen deze trend zijn er ook kant en klare systemen beschikbaar voor het beheer van metadata, maar wij trachten meer aan te sluiten bij open standaarden dan bij tools ivm lock-ins van leveranciers. Wij volgen de ontwikkelingen in de markt en doen actief onderzoek naar Metadata Management in samenwerking met universiteiten.",
-    "Laatst bijgewerkt": "7-3-2025"
+    "description": "Neuro-symbolic AI\nNeurale netwerken hebben als bekend nadeel dat ze vaak als “black box”-modellen functioneren. De uitkomsten zijn daardoor moeilijk uitlegbaar en lastig herleidbaar, wat problematisch kan zijn wanneer transparantie en verantwoordingsplicht vereist zijn binnen een AI-systeem. Een mogelijke oplossing is het combineren van neurale netwerken met symbolische logica. Hierdoor kan altijd worden teruggeredeneerd hoe een antwoord tot stand is gekomen, wat de transparantie en betrouwbaarheid van de resultaten vergroot.\n<br/><br/>\nNeuro-symbolic AI wordt gezien als een vorm van Responsible AI en is een onderzoeksdomein dat we actief volgen. Binnen het Kadaster doen we hier zelf onderzoek naar, onder andere in samenwerking met het <a href=\"https://www.utkadatalab.nl/\" target=\"_blank\">UTKa DataLab</a>. In dit lab wordt onderzocht hoe AI kan worden toegepast op autoritatieve datasets en hoe veilige, federatieve systemen voor datadeling kunnen worden opgezet. Daarbij wordt expliciet gekeken naar het gebruik van ontologieën en informatiemodellen in combinatie met AI, zodat kennisstructuren vastliggen en AI-toepassingen beter uitlegbaar, controleerbaar en herleidbaar worden. Dit draagt bij aan de verantwoorde en betrouwbare inzet van AI op complexe en gevoelige data.",
+    "Laatst bijgewerkt": "27-2-2026"
   },
   {
     "name": "Personal Online Datastores",
     "ring": "Explore",
     "quadrant": "Omgang met data",
-    "status": "Moved In",
+    "status": "No Change",
     "description": "Personal Online Datastores (PODs) zijn oplossingen die het mogelijk maken om je data op een veilige manier, decentraal, op te slaan. Een POD kan zelf gehost worden of worden afgenomen bij een aanbieder naar keuze. Het meest bekende voorbeeld van PODs is de Solid specificatie. Het is een beweging, voornamelijk gedreven door Europese wetgeving, die de macht en afhankelijkheid van Big Tech wil verkleinen door data en applicatie te scheiden. Ook moet het burgers weer regie op hun eigen gegevens brengen. Een POD lijkt in zijn functionaleit erg op wallets. Hierbij worden wallets offline gebruikt en PODs online. We hebben onderzoek gedaan naar PODs tijdens onze <a href=\"/cases/Solid-Pods\" target=\"_blank\">Solid Quest</a> verkenning.\n<br/><br/>\nDoor de aankomende <a href=\"https://edi.pleio.nl\" target=\"_blank\">Europese ID-wallet</a>, waarbij Kadaster een wallet als inlogmethode moet gaan ondersteunen, blijft het Kadaster de ontwikkeling nauw volgen.",
     "Laatst bijgewerkt": "7-3-2025"
-  },
-  {
-    "name": "Point Clouds",
-    "ring": "Explore",
-    "quadrant": "Moderne IT",
-    "status": "No Change",
-    "description": "Een point cloud (puntenwolk) is een 3d foto van een omgeving met achterliggende coördinaten. Ze worden gemaakt met een lidar scanner (Light Detection and Ranging) of op basis van photogrammetrische technieken. Dit wordt een non-contact, non-destructive technologie genoemd om een digitale vorm te maken van een fysieke vorm. Dit wordt al breed toegepast in vele gebieden zoals agrarische en bouw sector.\n<br/><br/>\nBij het Kadaster zijn er twee toepassingsgebieden: Landmeetkunde en Geo. Binnen Landmeetkunde heeft een onderzoek plaatsgevonden of puntenwolken van derden (dus niet zelfingewonnen puntenwolken) kunnen worden toegepast voor 'plaats- en tijd onafhankelijk aanwijs halen'. Hierbij werd gekeken hoe puntenwolken in de communicatie met stakeholders buiten het kadaster (de eigenaren van de gens) gebruikt kunnen worden. Onder particuliere klanten was er weinig behoefte voor deze manier van aanwijs halen en werd een fysiek bezoek van de landmeter meer gewaardeerd.\n<br/><br/>\nDaarnaast is ook gekeken hoe we als Kadaster puntenwolken kunnen controleren op nauwkeurigheid zodat we de puntenwolk van derden voor de metingen kunnen accepteren en niet zelf hoeven in te winnen. Deze bleken nog niet van voldoende nauwkeurigheid. Binnen het GEO-domein is het Kadaster al veel verder: puntenwolken dienen mede als input voor onze 3D-basisvoorziening.",
-    "Laatst bijgewerkt": "14-2-2023"
-  },
-  {
-    "name": "Privacy Enhancing Technologies",
-    "ring": "Explore",
-    "quadrant": "Omgang met data",
-    "status": "No Change",
-    "description": "Dit is een verzamelnaam voor technieken die gebruikt kunnen worden om persoonsgegevens beter te beschermen. Het doel is om de privacy zo veel mogelijk te waarborgen zonder de functionaliteit van systemen te verliezen. Voorbeelden van privacy enhancing technologies zijn Multi-Party Computation (MPC), Federated learning, Differential Privacy maar ook data anonimisering en pseudonimisering.\n<br/><br/>\nHet ETC heeft in 2021 de mogelijkheden van MPC onderzocht d.m.v. deelname aan een MPC pilot met o.a. KvK & TNO. Team Onderzoek start in 2024 een verkenning naar synthetische data. Dit is een fictief gegenereerde dataset, met behoud van de relaties en patronen uit de originele dataset maar niet herleidbaar naar (individuele) personen uit die originele dataset.\n<br/><br/>\nVanuit de overheid wordt er ook belangrijk onderzoek gedaan naar privacy-enhancing technologies in het <a href=\"https://www.digitaleoverheid.nl/nieuws/nicpet-bevordert-veilige-en-ethische-data-uitwisseling-met-pet/\"  target=\"_blank\">Nicpet innovatiecentrum</a> waarin verschillende overheidspartijen samenwerken aan dit onderwerp.",
-    "Laatst bijgewerkt": "5-2-2024"
-  },
-  {
-    "name": "RAG",
-    "ring": "Explore",
-    "quadrant": "AI en Datascience",
-    "status": "No Change",
-    "description": "Retrieval-based Augmented generation (RAG) is één van de technieken die gebruikt wordt bij Large Language Models (LLMs) om onjuistheden te verminderen. Bij een standaard LLM wordt alle tekst in het model zelf opgeslagen, zonder dat er een manier is om te achterhalen waar de informatie vandaan komt. In een RAG systeem worden brondocumenten apart opgeslagen waarna ze semantisch doorzocht kunnen worden. Zodoende wordt het antwoord uit bijvoorbeeld een chatbot altijd gebaseerd op feitelijke en herleidbare informatie.\n<br/><br/>\nBinnen chatbot Loki maken we ook gebruik van de RAG techniek. Door het toevoegen van o.a. de gegevenscatalogi is de chatbot in staat vragen te stellen over verschillende definities die binnen het Kadaster gehanteerd worden.",
-    "Laatst bijgewerkt": "6-2-2024"
   },
   {
     "name": "Responsible AI",
     "ring": "Explore",
     "quadrant": "AI en Datascience",
     "status": "No Change",
-    "description": "De laatste jaren is er niet alleen aandacht voor waar en hoe AI ingezet kan worden maar ook hoe dit op een verantwoorde manier gedaan kan worden. Taalmodellen zijn bijvoorbeeld erg krachting, maar ze zijn ook zeer rekenintensief en vereisen grote hoeveelheden data en rekenkracht. Daarnaast kunnen ze gevoelig zijn voor vooringenomenheid en fouten, vooral als de trainingsdata onvolledig of onjuist is. Het is daarom belangrijk om kritisch te blijven bij het gebruik van LLM's en de resultaten te verifiëren en valideren voordat ze worden gebruikt. Dit is Responsible AI, ook wel Ethical AI genoemd. Er zijn verschillende facetten waarop gelet moet worden om AI verantwoord in te zetten.\n<br/><br/>\nBinnen het Kadaster willen we op een betrouwbare, transparante en ethische manier omgaan met AI. Een algoritmeregister kan helpen bij het uitlegbaar en transparant maken van de algoritmische toepassingen die we gebruiken. Hiervoor hebben we een AI Governance team en een Ethische Data Commissie in het leven geroepen en publiceren we verscheidende algoritmes in <a href=\"https://algoritme.overheid.nl/algoritme?search=kadaster\" target=\"_blank\">Het Algoritmeregister</a>. Daarnaast volgen we de ontwikkelingen rondom de AI Act, de aankomende Europese regelgeving rondom het gebruik van AI systemen.\n<br/><br/>\nVoor het ethisch omgaan met AI doen we onder andere onderzoek naar Explainable AI. Dit is een set technieken die het mogelijk maakt om de uitkomsten van “black box” AI systemen op zo een manier uit te leggen dat ze voor mensen begrijpelijk zijn. Fairness en bias zijn ook belangrijk in om te monitoren in AI systemen, zodat er niet een groep mensen benadeeld worden door de algoritmes.",
-    "Laatst bijgewerkt": "7-3-2025"
+    "description": "De afgelopen jaren is er niet alleen aandacht voor waar en hoe AI kan worden ingezet, maar vooral ook voor de manier waarop dit verantwoord gebeurt. Taalmodellen zijn bijvoorbeeld zeer krachtig, maar ook rekenintensief en afhankelijk van grote hoeveelheden data en infrastructuur. Daarnaast kunnen ze gevoelig zijn voor vooringenomenheid (bias) en fouten, zeker wanneer de trainingsdata onvolledig of eenzijdig is. Het is daarom essentieel om kritisch te blijven bij het gebruik van AI-toepassingen, en uitkomsten zorgvuldig te verifiëren en te valideren voordat deze worden gebruikt in processen of besluitvorming. Dit wordt aangeduid als Responsible AI, ook wel Ethical AI genoemd. Daarbij wordt gekeken naar verschillende aspecten zoals transparantie, uitlegbaarheid, rechtmatigheid, veiligheid en menselijke controle.\n<br/><br/>\nBinnen het Kadaster streven we ernaar om op een betrouwbare, transparante en ethische manier met AI om te gaan. Een algoritmeregister helpt om inzichtelijk te maken welke algoritmische toepassingen worden gebruikt en met welk doel. Hiervoor hebben we een AI Governance team en een Ethische Data Commissie ingericht en publiceren we diverse algoritmes in het Algoritmeregister. Daarnaast volgen we actief de ontwikkelingen rondom de AI Act, de aankomende Europese regelgeving voor het gebruik van AI-systemen.\n<br/><br/>\nVoor het ethisch en verantwoord toepassen van AI doen we onder andere onderzoek naar Explainable AI (XAI). Dit omvat technieken die de uitkomsten van zogenoemde ‘black box’-modellen inzichtelijk en begrijpelijk maken voor mensen. Daarbij kijken we niet alleen naar modeluitleg op basis van kenmerken en bijdragen, maar ook naar reasoning: het inzichtelijk maken van de redeneerstappen die een model doorloopt om tot een antwoord te komen. Daarnaast onderzoeken we hoe ontologieën en informatiemodellen kunnen bijdragen aan beter uitlegbare en controleerbare AI-toepassingen. Door expliciet vastgelegde begrippen, definities en relaties te gebruiken, kan AI worden gekoppeld aan formeel vastgestelde kennisstructuren, wat de transparantie, consistentie en herleidbaarheid van uitkomsten versterkt.",
+    "Laatst bijgewerkt": "27-2-2026"
   },
   {
     "name": "Synthetische data",
     "ring": "Explore",
     "quadrant": "Omgang met data",
+    "status": "No Change",
+    "description": "Synthetische data is kunstmatig gegenereerde data die dezelfde statistische eigenschappen heeft als echte data, maar geen persoonlijke of gevoelige informatie bevat. Het wordt veelvuldig gebruikt in situaties waar privacy en dataveiligheid cruciaal zijn, zoals bij het trainen van AI-modellen of het testen van systemen. Voor het Kadaster biedt synthetische data mogelijkheden om innovaties te testen en ontwikkelen zonder risico’s voor privacy of databeveiliging. Het gebruik ervan kan bijdragen aan het versnellen van datagedreven oplossingen in een veilige en gecontroleerde omgeving.\n<br/><br/>\nIn 2024 hebben we onderzoek gedaan naar <a href=\"https://labs.kadaster.nl/studenten/synthetischedata/synthetische_data/\" target=\"_blank\">synthetische data in de woningmarkt</a>, waarbij synthetische koopsom en coördinaten vanuit BAG werden gegenereerd. Op 7 en 8 april 2025 organiseerden het Kadaster en Kamer van Koophandel een Innovation Jam (lees: hackathon) om de technologie achter synthetische data samen te verkennen. Eén van de tastbare resultaten van de hackathon was de ontwikkeling van een geïntegreerd <a href=\"https://docs.kadaster.nl/public/im/brk-hrs/\">datamodel/a> van BRK ❤️ HRS. Wel kwamen verschillende teams tot de conclusie dat het synthetiseren van de productiedata zelf een enorme inspanning zal vereisen. Het genereren van synthetische data voor het testen van software te starten lijkt met de huidige stand van de techniek de meest veelbelovende usecase.",
+    "Laatst bijgewerkt": "2-3-2026"
+  },
+  {
+    "name": "Vector Database",
+    "ring": "Explore",
+    "quadrant": "Moderne IT",
     "status": "New",
-    "description": "Synthetische data is kunstmatig gegenereerde data die dezelfde statistische eigenschappen heeft als echte data, maar geen persoonlijke of gevoelige informatie bevat. Het wordt veelvuldig gebruikt in situaties waar privacy en dataveiligheid cruciaal zijn, zoals bij het trainen van AI-modellen of het testen van systemen. Voor het Kadaster biedt synthetische data mogelijkheden om innovaties te testen en ontwikkelen zonder risico’s voor privacy of databeveiliging. Het gebruik ervan kan bijdragen aan het versnellen van datagedreven oplossingen in een veilige en gecontroleerde omgeving.\n<br/><br/>\nIn 2024 hebben we onderzoek gedaan naar <a href=\"https://labs.kadaster.nl/studenten/synthetischedata/synthetische_data/\" target=\"_blank\">synthetische data in de woningmarkt</a>, waarbij synthetische koopsom en coördinaten vanuit BAG werden gegenereerd. In 2025 onderzoeken Kadaster en de Kamer van Koophandel samen verder de stand van de techniek om tot een koppelbare synthetische dataset te komen. Het doel is om data van de twee organisaties te kunnen combineren op een privacy-vriendelijke manier.",
-    "Laatst bijgewerkt": "7-3-2025"
+    "description": "Een veel onderzochte toepassing van AI is het slimmer doorzoeken van documenten. Met nieuwe technieken kan dit effectiever dan traditioneel zoeken op exacte termen. Door semantisch te zoeken wordt niet alleen gekeken naar woorden, maar naar betekenis: welke inhoud sluit aan bij mijn vraag? Dit principe wordt vaak toegepast in combinatie met Retrieval Augmented Generation (RAG), bijvoorbeeld in chatbots.\n<br/><br/>\nVoor semantisch zoeken worden documenten omgezet in numerieke representaties (vectors) die de betekenis van de tekst vastleggen. Deze worden opgeslagen in een vector database, waarin documenten op basis van semantische gelijkenis met elkaar kunnen worden vergeleken. Naast gespecialiseerde oplossingen ondersteunen ook standaarddatabases zoals Postgres steeds vaker deze functionaliteit.\n<br/><br/>\nHet Kadaster gebruikt vector databases bij de ontwikkeling van de interne chatbot Kaatje, om vragen te beantwoorden op basis van grote hoeveelheden technische documentatie en interne kennisbronnen.",
+    "Laatst bijgewerkt": "2-3-2026"
   },
   {
     "name": "Virtual Assistant",
     "ring": "Explore",
     "quadrant": "AI en Datascience",
     "status": "No Change",
-    "description": "Virtual Assistants, of Conversational AI, zien we tegenwoordig steeds meer om ons heen, denk aan ChatGPT, Apple's Siri of Google Assistent. Bij conversational AI gaat het om het voeren van een gesprek met de computer via tekst of spraak. Chatbots bestaan al lang, maar nog niet zo lang met extra hulp van generatieve taalmodellen. Daarmee is het mogelijk om een chatbot veel persoonlijker en minder strikt een vooraf bedacht schema te laten volgen. Voice assistance gaat technisch gezien nog een stap verder en hierbij wordt nog meer gebruik gemaakt van Artificial Intelligence.\n<br/><br/>\nChatbots zullen dan waarschijnlijk ook eerder worden ingezet binnen het Kadaster. Het Kadaster kan zeker voordeel hebben van chatbots en het is goed om te onderzoeken waar chatbots de werkdruk kunnen verlichten en/of de eerste lijn van vragen kunnen beantwoorden.\n<br/><br/>\nHet Kadaster experimenteert momenteel zelf met een chatbot genaamd LOKI. Loki is een experiment waarbij we de toegevoegde waarde willen aantonen van een chatbot voor Locatie-gebaseerde Kadaster Informatieverstrekking. Dat doen we nu via SPARQL en GraphQL endpoints, waar softwareontwikkelaars zich wel mee uit te voeten kunnen, maar niet geschikt is voor een breed publiek. Middels een chatbot kan een vraag in natuurlijke taal worden omgezet naar database-queries in eerder genoemde formaat. Hiermee wordt de Kadasterdata beter toegankelijk. Meer informatie over Loki is the vinden op onze <a href=\"https://labs.kadaster.nl/innovatie/lokiv3/loki_v3/\" target=\"_blank\">Labs-pagina</a>. Het antwoord kan vervolgens ook weer omgezet worden naar natuurlijke taal, dit gaat met behulp van Generative AI.",
-    "Laatst bijgewerkt": "13-2-2023"
+    "description": "Virtual Assistants, ook wel Conversational AI genoemd, zien we steeds vaker terug in het dagelijks leven, zoals bij ChatGPT, Apple’s Siri of Google Assistant. Conversational AI maakt het mogelijk om via tekst of spraak een gesprek te voeren met een computersysteem. Chatbots bestaan al langer, maar door de inzet van generatieve taalmodellen zijn ze aanzienlijk krachtiger geworden. Hierdoor kunnen ze flexibeler reageren, beter context begrijpen en minder strikt een vooraf gedefinieerd script volgen. Voice assistants gaan hierin nog een stap verder, doordat zij spraakherkenning, taalbegrip en spraakgeneratie combineren met AI-technieken.\n<br/><br/>\nOok binnen het Kadaster zien we kansen voor de inzet van chatbots, bijvoorbeeld om de werkdruk te verlichten of om veelgestelde vragen in de eerste lijn te beantwoorden. Daarom experimenteren en onderzoeken we verschillende toepassingen van conversational AI.\n<br/><br/>\nDe eerste chatbot die binnen het Kadaster is ontwikkeld, is <a href=\"https://labs.kadaster.nl/innovatie/loki/loki/\" target=\"_blank\">Loki</a>. Dit experiment richt zich op het toegankelijk maken van open geodata. Waar voorheen vooral gebruik werd gemaakt van SPARQL- en GraphQL-endpoints – die met name geschikt zijn voor softwareontwikkelaars – maakt Loki het mogelijk om vragen in natuurlijke taal te stellen. Deze vragen worden vervolgens automatisch vertaald naar queries, waardoor geodata beter toegankelijk wordt voor een bredere doelgroep.\n<br/><br/>\nDaarnaast is er <a href=\"https://labs.kadaster.nl/innovatie/chatbotkaatje/kaatje\" target=\"_blank\">Kaatje</a>, een chatbot-prototype waarin wordt onderzocht hoe taalmodellen gecombineerd kunnen worden met specifieke kennisbronnen van het Kadaster. Kaatje past onder andere retrieval-technieken toe om antwoorden te baseren op geselecteerde documenten en datasets, zodat de betrouwbaarheid van de antwoorden wordt vergroot.\n<br/><br/>\nBinnen <a href=\"https://labs.kadaster.nl/innovatie/lokinexus/lokinexus/\" target=\"_blank\">Loki Nexus</a> wordt verder geëxperimenteerd met een geavanceerdere chatomgeving. Hier staat het bevragen en analyseren van data via natuurlijke taal centraal. Gebruikers kunnen datasets selecteren en vragen stellen, waarna het systeem antwoorden genereert in tekst, grafieken of kaarten. Zo wordt onderzocht hoe conversational AI kan bijdragen aan bredere en laagdrempelige toegang tot data en analyses binnen het Kadaster.",
+    "Laatst bijgewerkt": "27-2-2026"
   },
   {
     "name": "Wallet",
     "ring": "Explore",
     "quadrant": "Omgang met data",
-    "status": "Moved In",
+    "status": "No Change",
     "description": "Een wallet is één van de mogelijke persoonlijke datamanagement oplossingen. Voor al deze oplossingen geldt dat je zelf toestemming moet geven om de data te delen met als doel meer regie geven over de persoonlijke data. Een wallet is een applicatie op je telefoon waarmee je verschillende kenmerken over jezelf kunt delen, bijvoorbeeld door het laten scannen van een QR code. Deze kenmerken worden opgeslagen als Verifiable Credentials. Zie ook \"Self-Sovereign Identity\".\n<br/><br/>\nHet meest bekende voorbeeld van een wallet in Nederland is Yivi, voorheen bekend als IRMA. Ook wordt er gewerkt aan de nl-wallet als voorbeeld implementatie van de Europese Digitale Identiteit (EDI). Zie ook de openbare ontwikkelpagina van de <a href=\"https://github.com/MinBZK/nl-wallet\" target=\"_blank\">NL-Wallet</a>.",
     "Laatst bijgewerkt": "7-3-2025"
   },
   {
-    "name": "Empowered Edge",
+    "name": "Blockchain",
+    "ring": "Monitor",
+    "quadrant": "Omgang met data",
+    "status": "Moved Out",
+    "description": "De hype van blockchain begint af te nemen. D.w.z. in theorie kan het nog steeds het Kadaster vervangen, maar in een land waar het Kadaster wordt vertrouwd voegt dit niets toe. Het adresseert wel een relevant onderwerp, namelijk: vertrouwen en dan met name vertrouwen in het digitale domein. Welke autoriteit 'zegt' dat data klopt en wat zegt dat dan? Een voorbeeld is Self-sovereign Idenitity (zie verderop in de radar). Voor het scheppen van vertrouwen in uitgegeven credentials is een decentraal beheerd, onveranderlijk en openbaar register waarin de metadata van uitgegeven credentials als anonieme gegevens voor iedereen te raadplegen zijn, noodzakelijk. Voor dit register lijkt een Blockchain ideaal en er is reeds een European Blockchain Services Infrastructure (EBSI) opgezet.\n<br/><br/>\nDe technologie onder blockchain heet Distributed Ledger Technology. Dit is een technische oplossing om een gedistribueerde ledger, grootbook of database te beheren. Hier zijn vele verschijningsvormen van waarbij over het algemeen geldt dat de data vaak niet rechtstreeks op de blockchain (in de ledger) wordt opgeslagen, maar erbuiten en alleen de 'administratie' van de ledger erin wordt vastgelegd. Deze technologie biedt mogelijkheden om decentraal wijzigingen te doen terwijl er toch met een groter geheel integriteit wordt bewaakt. Dit onderdeel van blockchain heeft het Kadaster met succes toegepast in <a href='/demonstrators/sensrnet/index.html' target=\"_blank\">SensRNet</a>, een nieuwe nationale registratie van sensoren waarin deelnemers (nodes) in het register(netwerk) zelf sensoren kunnen beheren, terwijl de data integriteit en koppeling tussen de deelnemers door blockchain worden gegarandeerd. Als zodanig wordt blockchain of DLT, onderdeel van het nieuwe internet voor specifieke onderdelen en aspecten waarin data decentraal gedeeld moet worden.",
+    "Laatst bijgewerkt": "2-3-2026"
+  },
+  {
+    "name": "Extended Reality",
     "ring": "Monitor",
     "quadrant": "Moderne IT",
-    "status": "No Change",
-    "description": "Met IoT wordt ons hele leven met alles verbonden. Tegelijk worden alle apparaten die verbonden zijn steeds sterker in rekenkracht en mogelijkheden. Met 'edge' wordt gedoeld op de apparaten die zich aan de rand of einde van het internet bevinden. De groei van verbonden apparaten wordt IoT genoemd, maar deze 'edge' wordt steeds sterker in rekenkracht en mogelijkheden. Daar staat deze trend voor: dit is geen eenvoudige 'edge' meer, maar een Empowered Edge. Apparaten met 5G internet, met ingebouwde of toegang tot Artificial Intelligence brengen mogelijkheden voor real time data uitwisseling bijvoorbeeld voor een zelfrijdende auto en andere Autonomous Things en Smart Anything.\n<br/><br/>\nVoor het Kadaster is dit terrein niet direct relevant, hoewel IoT en de opkomst van sensoren en (slimme) apparaten wel impact op te registreren objecten of op de bedrijfsvoering kan hebben. Daarom volgt het Kadaster deze trend wel zonder daar zelf actief onderzoek in te verrichten.",
-    "Laatst bijgewerkt": "14-2-2023"
+    "status": "Moved Out",
+    "description": "Extended reality is de overkoepelende term voor Virtual Reality (VR), Mixed Reality (MR), Augmented Reality (AR) en andere immersieve technologieën die de fysieke en digitale wereld verbinden. Hierbij gaat het vooral om de visualisatie zelf en heeft de techniek daarom ook raakvlakken met andere techs zoals digital twin. Het Kadaster onderzoekt waar VR en AR van toepassing kunnen zijn. Er zijn experimenten uitgevoerd met AR voor grensreconstructie en een AR en VR applicatie op basis van de Kadaster Knowledge Graph <a href=\"https://labs.kadaster.nl/innovatie/arapplicatie/ar_applicatie\" target=\"_blank\">  </a>. ",
+    "Laatst bijgewerkt": "2-3-2026"
   },
   {
     "name": "High Performance Computing",
     "ring": "Monitor",
     "quadrant": "Moderne IT",
     "status": "No Change",
-    "description": "High-performance computing (HPC), ook wel super computing genoemd, is geaggregeerde computerkracht waarbij het geheel veel meer is dan de som van een aantal pc's. De term supercomputer wordt gebruikt voor systemen die tenminste 10.000 tot 100.000 keer sneller zijn dan een gewone pc. Door deze veel grotere rekencapaciteit wordt het mogelijk om complexe problemen op te lossen op het gebied van wetenschappelijk onderzoek en technologische ontwikkeling.\n<br/><br/>\nMomenteel maakt het Kadaster gebruik van AI taalmodellen welke getrained zijn op HPC clusters. Het Kadaster maakt zelf geen gebruik van HPC clusters en lijkt dat ook niet nodig te hebben. Reguliere (cloud) machines zijn krachtig genoeg om onze databewerkingen en -analyses uit te kunnen voeren. Wanneer dat een bottlebeck gaat vormen, bijvoorbeeld wanneer we meer met Digital Twins of Extended Reality gaan doen, gaan we onderzoeken of en hoe we gebruik kunnen maken van HPC.",
+    "description": "High-performance computing (HPC), ook wel super computing genoemd, is geaggregeerde computerkracht waarbij het geheel veel meer is dan de som van een aantal pc's. De term supercomputer wordt gebruikt voor systemen die tenminste 10.000 tot 100.000 keer sneller zijn dan een gewone pc. Door deze veel grotere rekencapaciteit wordt het mogelijk om complexe problemen op te lossen op het gebied van wetenschappelijk onderzoek en technologische ontwikkeling.\n<br/><br/>\nMomenteel maakt het Kadaster gebruik van AI taalmodellen welke getraind zijn op HPC clusters. Het Kadaster maakt zelf geen gebruik van HPC clusters en lijkt dat ook niet nodig te hebben. Reguliere (cloud) machines zijn krachtig genoeg om onze databewerkingen en -analyses uit te kunnen voeren. Wanneer dat een bottlebeck gaat vormen, bijvoorbeeld wanneer we meer met Digital Twins of Extended Reality gaan doen, gaan we onderzoeken of en hoe we gebruik kunnen maken van HPC.",
     "Laatst bijgewerkt": "14-2-2023"
   },
   {
@@ -336,18 +400,10 @@
     "Laatst bijgewerkt": "29-1-2024"
   },
   {
-    "name": "Neuro-symbolic AI",
-    "ring": "Monitor",
-    "quadrant": "AI en Datascience",
-    "status": "No Change",
-    "description": "Neurale netwerken hebben als probleem black box modellen te zijn. De uitkomsten zijn niet uitlegbaar en herleidbaar. Dit is een probleem wanneer dat wel vereisten zijn in een AI-systeem. Een mogelijke oplossing is om het te combineren met symbolische logica, waarmee altijd terug geredeneerd kan worden hoe het antwoord tot stand is gekomen.\n<br/><br/>\nNeuro-symbolic AI is daardoor is een vorm van Responsible AI die we met aandacht volgen. We zien hiervoor toepassingen voor in o.a. de GeoAI, waar een neuraal netwerk objecten kan vinden op lokaal niveau en het symbolische model daarover analyses kan doen.",
-    "Laatst bijgewerkt": "6-2-2024"
-  },
-  {
     "name": "Quantum technologie",
     "ring": "Monitor",
     "quadrant": "Omgang met data",
-    "status": "New",
+    "status": "No Change",
     "description": "Quantum technologie maakt gebruik van de unieke eigenschappen van quantummechanica, zoals superpositie en verstrengeling, om fundamentele doorbraken te realiseren in rekenkracht, communicatie en sensoriek. Hoewel de technologie nog in een experimentele fase verkeert, zijn er al toepassingen in ontwikkeling zoals quantumcomputers, die bepaalde berekeningen veel sneller kunnen uitvoeren dan traditionele computers.\n<br/><br/>\nVoor het Kadaster kan quantum technologie in de toekomst mogelijkheden bieden voor complexe dataverwerking, zoals optimalisatievraagstukken (ruilverkaveling) en cryptografie. In eerste instantie zullen we het vooral merken met post-quantum encryptie technieken om onze dataveiligheid op orde te houden. Het cybersecurity team volgt deze ontwikkeling daarom aandachtig.",
     "Laatst bijgewerkt": "7-3-2025"
   },
@@ -358,13 +414,5 @@
     "status": "No Change",
     "description": "Self-sovereign identity (SSI) is een concept waarbij individuen de controle hebben over hun eigen digitale identiteit. Dit betekent dat ze in staat zijn om hun persoonlijke gegevens te beheren en te delen zonder afhankelijk te zijn van een enkele centrale autoriteit of partij zoals een Gemeente of Meta. Bij SSI maken personen gebruik van digitale (identiteits)gegevens die door betrouwbare bronnen zijn uitgegeven. Hiervoor kan gebruik worden gemaakt van verifiable credentials (VC’s). Een VC is een digitaal bewijsstuk dat door een betrouwbare bron is uitgegeven en dat kan worden gebruikt om de identiteit of attributen van een persoon te verifiëren. Dit kan bijvoorbeeld een diploma of een rijbewijs zijn. Deze VC’s worden opgeslagen in een wallet (offline) of kluis (online). Deze is alleen toegankelijk voor de eigenaar en kan worden gebruikt om hun identiteit te bewijzen terwijl er zo min mogelijk persoonlijke informatie wordt gedeeld. Hierdoor hebben individuen controle over hoe en wanneer hun (identiteits)gegevens worden gedeeld.\n<br/><br/>\nSSI wordt momenteel veel onderzocht, dit komt onder andere door de aangekondigde komst van een Europese Digitale Identiteit en de ontwikkeling van een Nederlandse wallet waarin burgers attributen kunnen gaan laden. Het Kadaster kan binnen SSI de rol van uitgever, issuer, spelen. Zo kan het Kadaster bijv. een eigendomscertificaat gaan uitgeven. Het is daarom relevant om deze ontwikkeling te blijven volgen.",
     "Laatst bijgewerkt": "24-1-2024"
-  },
-  {
-    "name": "Unconventional Computing",
-    "ring": "Monitor",
-    "quadrant": "Moderne IT",
-    "status": "No Change",
-    "description": "Unconventional computing verwijst naar computing paradigma's en technologieën die afwijken van de traditionele Von Neumann-architectuur van klassieke digitale computers. Het omvat een reeks technologieën, zoals quantum computing, neuromorfische hardware, optische computing, DNA computing, en anderen, die erop gericht zijn de beperkingen van klassieke computing, zoals verwerkingssnelheid, energie-efficiëntie en vermogen om bepaalde problemen aan te pakken, te overwinnen.\n<br/><br/>\nOp dit moment zijn de ontwikkelingen rondom unconventional computing nog niet zo ver dat die het Kadaster gaan raken. Maar Kadaster houdt wel rekening met deze ontwikkelingen en welke kansen en risico’s deze met zich mee zullen brengen. Zo zal onze computerbeveiliging niet meer toereikend zijn bij de komst van quantum computing en onze encryptie daarmee eenvoudig ontsleutelt kan worden. Hoe veilig zijn onze data en systemen dan nog? Hoewel dit nog jaren zal duren, is het belangrijk dat we tijdig maatregelen nemen om de encryptie bijv. quantum-proof te maken. We houden daarbij ook de inzichten en aanbevelingen van het Nationaal Cyber Security Centrum daarbij in de gaten, omdat dit iets zou zijn wat heel Nederland gaat raken en niet alleen het Kadaster.",
-    "Laatst bijgewerkt": "14-2-2023"
   }
 ]
